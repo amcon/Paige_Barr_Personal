@@ -26,7 +26,7 @@ p {
   position: absolute;
   top: 0;
   z-index: 2;
-  background-image: url("public/stock-city.jpg");
+  background-image: url("public/stock-subway.jpeg");
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -37,6 +37,8 @@ p {
 .title-screen h1 {
   color: white;
   font-size: 100px;
+  font-weight: lighter;
+  text-shadow: 1.5px 1.5px salmon;
 }
 
 
@@ -109,7 +111,7 @@ p {
   overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   z-index: 1;
   transition: 0.5s;
@@ -333,10 +335,41 @@ p {
 
         .voiceover {
           width: 100%;
-          height: 330px;
+          height: 700px;
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
         }
+
+              .audio {
+                height: 300px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+              }
+
+              audio {
+                width: 70%;
+              }
+
+              .audio-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 16%;
+                width: 100%;
+              }
+
+              .audio-box p {
+                display: block;
+                height: 100%;
+                width: 30%;
+                text-align: left;
+                margin-top: 4.2%;
+              }
 
         .writing {
           width: 100%;

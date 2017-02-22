@@ -79,7 +79,7 @@ $(function(){
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
     $(".about").css('opacity', '0');
-    $(".reels").css('height', '3500px');
+    $(".reels").css('height', '3800px');
 
     function reelsModal() {
       $(".reels").css({
@@ -89,7 +89,7 @@ $(function(){
       $(".about").css('z-index', '0');
       $(".resume").css('z-index', '0');
       $(".headshots_and_photos").css('z-index', '0');
-      $(".footer").css('top', '3700px');
+      $(".footer").css('top', '4000px');
     };
     setTimeout(reelsModal, 1000);
   });
