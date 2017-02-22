@@ -2,6 +2,16 @@ console.log("I'm here");
 
 $(function(){
 
+  function titleDisappear() {
+    $(".title-screen").css('opacity', '0');
+  };
+  setTimeout(titleDisappear, 1500);
+
+  function titleDisappear2() {
+    $(".title-screen").css('z-index', '0');
+  };
+  setTimeout(titleDisappear2, 3000);
+
   $("#about").click(function() {
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
@@ -84,7 +94,7 @@ $(function(){
     setTimeout(reelsModal, 1000);
   });
 
-  $("#news-reel").click(function() {
+  $(".news-reel").click(function() {
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
     $(".about").css('opacity', '0');

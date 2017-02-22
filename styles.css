@@ -27,6 +27,30 @@ p {
 /*------------------------------------------*/
 
 
+.title-screen {
+  height: 1600px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  background-image: url("public/stock-city.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s;
+}
+
+.title-screen h1 {
+  color: white;
+  margin-top: -70%;
+  font-size: 100px;
+}
+
+
+/*------------------------------------------*/
+
+
 .header {
   height: 200px;
   width: 80%;
@@ -134,7 +158,7 @@ p {
           align-items: center;
         }
 
-        #news-reel:hover {
+        .news-reel:hover {
           color: salmon;
           cursor: pointer;
         }
