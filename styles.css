@@ -5,9 +5,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #FAFAFA;
-  font-family: 'Quicksand', sans-serif;
 }
 
+h1, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
 
 /*------------------------------------------*/
 
@@ -15,10 +21,10 @@ body {
 .header {
   height: 200px;
   width: 100%;
-  background-image: url("public/stock-city.jpg");
+  /*background-image: url("public/stock-city.jpg");
   background-attachment: fixed;
   background-size: 100%;
-  background-position: top;
+  background-position: top;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,7 +32,7 @@ body {
   box-sizing: border-box;
   border-bottom: 1px solid black;
   padding-left: 5%;
-  color: white;
+  /*color: white;*/
 }
 
         .title {
@@ -40,8 +46,9 @@ body {
 
         .title h1 {
           margin: 2% 0 2% 0;
-          font-family: 'Dosis', sans-serif;
+          font-family: 'Raleway', sans-serif;
           font-size: 50px;
+          font-weight: lighter;
         }
 
         .title p {
@@ -55,7 +62,7 @@ body {
           display: flex;
           justify-content: center;
           align-items: flex-end;
-          padding-bottom: 2%;
+          padding-bottom: 3.5%;
         }
 
         .header nav p {
@@ -84,6 +91,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   z-index: 1;
+  transition: 0.5s;
 }
 
         .about h1 {
@@ -136,6 +144,8 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
 }
 
         .resume h1 {
@@ -226,6 +236,8 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
 }
 
         .headshots_and_photos h1, .headshots_and_photos p {
@@ -233,7 +245,7 @@ body {
         }
 
         .picture-box {
-          height: 850px;
+          height: 900px;
           width: 100%;
           display: flex;
           flex-direction: row;
@@ -265,6 +277,8 @@ body {
   justify-content: center;
   align-items: flex-start;
   z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
 }
 
         .reels h1 {
