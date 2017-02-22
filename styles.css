@@ -1,9 +1,5 @@
 body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 0 0 10%;
   background-color: #FAFAFA;
 }
 
@@ -26,6 +22,7 @@ p {
 .title-screen {
   height: 100vh;
   width: 100%;
+  margin-left: -10%;
   position: absolute;
   top: 0;
   z-index: 2;
@@ -275,7 +272,7 @@ p {
         }
 
         .picture-box {
-          height: 900px;
+          height: 920px;
           width: 100%;
           display: flex;
           flex-direction: row;
