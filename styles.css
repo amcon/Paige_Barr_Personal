@@ -14,18 +14,24 @@ body {
 
 .header {
   height: 200px;
-  width: 80%;
+  width: 100%;
+  background-image: url("public/stock-city.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: top;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
   border-bottom: 1px solid black;
+  padding-left: 5%;
+  color: white;
 }
 
         .title {
-          height: 120px;
-          width: 60%;
+          height: 180px;
+          width: 50%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -44,16 +50,22 @@ body {
         }
 
         .header nav {
-          height: 120px;
-          width: 40%;
+          height: 140px;
+          width: 50%;
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items: flex-end;
+          padding-bottom: 2%;
         }
 
         .header nav p {
           margin-left: 7%;
           font-size: 15px;
+        }
+
+        .header nav p:hover {
+          cursor: pointer;
+          color: salmon;
         }
 
 
@@ -62,15 +74,141 @@ body {
 
 .about {
   width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  background-color: #FAFAFA;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1;
 }
 
+        .about h1 {
+          margin-top: 10%;
+        }
+
+        .about p {
+          margin-top: 5%;
+        }
+
+        .about-container {
+          height: 500px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+              .about-text {
+                height: 500px;
+                width: 50%;
+              }
+
+              .about img {
+                height: 400px;
+                width: 40%;
+              }
+
+        .news {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        }
 
 /*-----------------------------------*/
 
 
 .resume {
   width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  background-color: #FAFAFA;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
 }
+
+        .resume h1 {
+          margin: 0;
+          font-size: 40px;
+        }
+
+        .resume h3 {
+          font-size: 20px;
+          margin: 0;
+          margin-top: 2%;
+          margin-bottom: 1%;
+          display: block;
+          height: 20px;
+          width: 80%;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        .resume p {
+          font-size: 13px;
+          margin: 0;
+        }
+
+        .resume-container {
+          width: 80%;
+          height: 150px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .resume-box {
+          width: 80%;
+
+        }
+
+        #comedy {
+          height: 120px;
+        }
+
+        #theatre {
+          height: 170px;
+        }
+
+        .show {
+          width: 40%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+        }
+
+        .role {
+          width: 20%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+        }
+
+        .company {
+          width: 40%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-end;
+          text-align: right;
+        }
 
 
 /*-----------------------------------*/
@@ -78,7 +216,38 @@ body {
 
 .headshots_and_photos {
   width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  background-color: #FAFAFA;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
 }
+
+        .headshots_and_photos h1, .headshots_and_photos p {
+          margin: 0;
+        }
+
+        .picture-box {
+          height: 850px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+        .picture-box img {
+          height: 30%;
+          width: 30%;
+          box-sizing: border-box;
+          border: 1px solid black;
+        }
 
 
 /*-----------------------------------*/
@@ -86,8 +255,60 @@ body {
 
 .reels {
   width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  background-color: #FAFAFA;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 0;
 }
 
+        .reels h1 {
+          margin: 0 0 1% 0;
+        }
+
+         .reels h3 {
+          margin: 3% 0 2% 0;
+         }
+
+        .comercials {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+        }
+
+        .legit {
+          width: 100%;
+          height: 650px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+        }
+
+        .voiceover {
+          width: 100%;
+          height: 330px;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .writing {
+          width: 100%;
+          height: 960px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+        }
+
+        iframe {
+          margin-right: 1%;
+          margin-bottom: 1%;
+        }
 
 
 /*-----------------------------------*/
@@ -95,7 +316,7 @@ body {
 
 
 .footer {
-  height: 300px;
+  height: 200px;
   width: 100%;
   box-sizing: border-box;
   border-top: 1px solid black;
@@ -104,15 +325,16 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 1400px;
 }
 
-.footer img {
-  height: 80px;
-  width: 80px;
-  background-color: black;
-  color: white;
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align: center;
-  line-height: 80px;
-}
+        .footer img {
+          height: 60px;
+          width: 60px;
+          color: white;
+          margin-left: 2%;
+          margin-right: 2%;
+          text-align: center;
+          line-height: 80px;
+        }
