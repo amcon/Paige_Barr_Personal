@@ -12,10 +12,17 @@ $(function(){
   };
   setTimeout(titleDisappear2, 3000);
 
+
+
+
   $("#about").click(function() {
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
-    $(".reels").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
 
     function aboutModal() {
       $(".about").css({
@@ -24,19 +31,27 @@ $(function(){
       });
       $(".resume").css('z-index', '0');
       $(".headshots_and_photos").css('z-index', '0');
-      $(".reels").css({
+      $(".reels-featured").css({
         "z-index": '0',
-        height: '1200px'
       });
-      $(".footer").css('top', '1400px');
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(aboutModal, 1000);
   });
 
+
+
   $("#resume").click(function() {
     $(".about").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
-    $(".reels").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
 
     function resumeModal() {
       $(".resume").css({
@@ -45,11 +60,13 @@ $(function(){
       });
       $(".about").css('z-index', '0');
       $(".headshots_and_photos").css('z-index', '0');
-      $(".reels").css({
+      $(".reels-featured").css({
         "z-index": '0',
-        height: '1200px'
       });
-      $(".footer").css('top', '1400px');
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(resumeModal, 1000);
   });
@@ -57,7 +74,11 @@ $(function(){
   $("#headshots").click(function() {
     $(".resume").css('opacity', '0');
     $(".about").css('opacity', '0');
-    $(".reels").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
 
     function headshotModal() {
       $(".headshots_and_photos").css({
@@ -66,52 +87,183 @@ $(function(){
       });
       $(".about").css('z-index', '0');
       $(".resume").css('z-index', '0');
-      $(".reels").css({
+      $(".reels-featured").css({
         "z-index": '0',
-        height: '1200px'
       });
-      $(".footer").css('top', '1400px');
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(headshotModal, 800);
   });
+
+
 
   $("#reels").click(function() {
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
     $(".about").css('opacity', '0');
-    $(".reels").css('height', '3800px');
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
 
     function reelsModal() {
-      $(".reels").css({
+      $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
       $(".about").css('z-index', '0');
       $(".resume").css('z-index', '0');
       $(".headshots_and_photos").css('z-index', '0');
-      $(".footer").css('top', '4000px');
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(reelsModal, 1000);
   });
+
+
+
+  $(".box-commercials").click(function() {
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
+
+    function commercialsModal() {
+      $(".reels-commercials").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".reels-featured").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
+    };
+    setTimeout(commercialsModal, 800);
+  });
+
+
+  $(".box-featured").click(function() {
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
+
+    function featuredModal() {
+      $(".reels-featured").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
+    };
+    setTimeout(featuredModal, 800);
+  });
+
+
+  $(".box-legit").click(function() {
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
+
+    function legitModal() {
+      $(".reels-legit").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-featured").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
+    };
+    setTimeout(legitModal, 800);
+  });
+
+
+  $(".box-voiceover").click(function() {
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-writing").css('opacity', '0');
+
+    function voiceModal() {
+      $(".reels-voiceover").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-featured").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-writing").css('z-index', '0');
+    };
+    setTimeout(voiceModal, 800);
+  });
+
+
+  $(".box-writing").click(function() {
+    $(".reels-commercials").css('opacity', '0');
+    $(".reels-featured").css('opacity', '0');
+    $(".reels-legit").css('opacity', '0');
+    $(".reels-voiceover").css('opacity', '0');
+
+    function writingModal() {
+      $(".reels-writing").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".reels-commercials").css('z-index', '0');
+      $(".reels-featured").css('z-index', '0');
+      $(".reels-legit").css('z-index', '0');
+      $(".reels-voiceover").css('z-index', '0');
+    };
+    setTimeout(writingModal, 800);
+  });
+
+
 
   $(".news-reel").click(function() {
     $(".resume").css('opacity', '0');
     $(".headshots_and_photos").css('opacity', '0');
     $(".about").css('opacity', '0');
-    $(".reels").css('height', '3500px');
 
     function reelsModal() {
-      $(".reels").css({
+      $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
       $(".about").css('z-index', '0');
       $(".resume").css('z-index', '0');
       $(".headshots_and_photos").css('z-index', '0');
-      $(".footer").css('top', '3700px');
     };
     setTimeout(reelsModal, 1000);
   });
+
+  $(".news-legit").click(function() {
+    $(".resume").css('opacity', '0');
+    $(".headshots_and_photos").css('opacity', '0');
+    $(".about").css('opacity', '0');
+
+    function reelsModal() {
+      $(".reels-legit").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+      $(".about").css('z-index', '0');
+      $(".resume").css('z-index', '0');
+      $(".headshots_and_photos").css('z-index', '0');
+    };
+    setTimeout(reelsModal, 1000);
+  });
+
+
+
 
   $("#twitter").click(function(){
     window.open("https://twitter.com/paigesfunny", "_blank");

@@ -58,7 +58,7 @@
       <h1>News</h1>
       <br><br>
       <div class="news-container">
-        <p class="news-reel">Check out my new character reel</p>
+        <p class="news-legit">Check out my new character reel</p>
         <br><br><br>
         <p class="news-reel">Check out my new Power of the Peanut Campaign (Bill Hader as Mr. Peanut!)</p>
         <br><br><br>
@@ -229,18 +229,18 @@
 
 
   <div class="headshots_and_photos">
-    <h1>Headshots</h1>
+    <h1>Headshots & Photos</h1>
     <h3>on location</h3>
     <div class="picture-box">
       <img src="public/Paige-02.jpg" alt="">
       <img src="public/Paige-01.jpg" alt="">
       <img src="public/Paige-05.jpg" alt="">
+      <img src="public/Paige-08.png" alt="">
+      <img src="public/Paige-03.jpg" alt="">
+      <img src="public/Paige-07.png" alt="">
       <img src="public/Paige-09.png" alt="">
       <img src="public/nurse-jackie.png" alt="">
       <img src="public/nurse-jackie-02.png" alt="">
-      <img src="public/Paige-03.jpg" alt="">
-      <img src="public/Paige-08.png" alt="">
-      <img src="public/Paige-07.png" alt="">
     </div>
   </div>
 
@@ -248,10 +248,21 @@
 
 
 
-  <div class="reels">
+  <div class="reels-featured">
     <h1>Reels</h1>
     <h3>Featured Video:</h3>
-      <iframe width="60%" height="10%" src="https://www.youtube.com/embed/tZsbT-cA1fQ" frameborder="0" allowfullscreen></iframe>
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/tZsbT-cA1fQ" frameborder="0" allowfullscreen></iframe>
+    <h3>View More...</h3>
+    <div class="reel-boxes">
+      <div class="box-commercials"><h2>Commercials</h2></div>
+      <div class="box-legit"><h2>Legit</h2></div>
+      <div class="box-voiceover"><h2>Voiceover</h2></div>
+      <div class="box-writing"><h2>Writing<br>Producing<br>Acting</h2></div>
+    </div>
+  </div>
+
+  <div class="reels-commercials">
+    <h1>Reels</h1>
     <h3>Commercials:</h3>
     <div class="commercials">
       <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/EwYS-n0vfhg" frameborder="0" allowfullscreen></iframe>
@@ -259,6 +270,17 @@
       <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/981OA_BZ42Q" frameborder="0" allowfullscreen></iframe>
       <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/nyzwGO_saN4" frameborder="0" allowfullscreen></iframe>
     </div>
+    <h3>View More...</h3>
+    <div class="reel-boxes">
+      <div class="box-featured"><h2>Featured</h2></div>
+      <div class="box-legit"><h2>Legit</h2></div>
+      <div class="box-voiceover"><h2>Voiceover</h2></div>
+      <div class="box-writing"><h2>Writing<br>Producing<br>Acting</h2></div>
+    </div>
+  </div>
+
+  <div class="reels-legit">
+    <h1>Reels</h1>
     <h3>Legit:</h3>
     <div class="legit">
       <iframe src="https://player.vimeo.com/video/34718172" width="48.5%" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -266,10 +288,21 @@
       <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/jeQAH6umtGo" frameborder="0" allowfullscreen></iframe>
       <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/6IygU-N1b2Y" frameborder="0" allowfullscreen></iframe>
     </div>
-    <h3>Voiceover:</h3>
+    <h3>View More...</h3>
+    <div class="reel-boxes">
+      <div class="box-commercials"><h2>Commercials</h2></div>
+      <div class="box-featured"><h2>Featured</h2></div>
+      <div class="box-voiceover"><h2>Voiceover</h2></div>
+      <div class="box-writing"><h2>Writing<br>Producing<br>Acting</h2></div>
+    </div>
+  </div>
+
+  <div class="reels-voiceover">
+    <h1>Reels</h1>
+    <h3 id="voice">Voiceover:</h3>
     <div class="voiceover">
-      <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>
-      <iframe width="48.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>
+      <iframe id="space" width="42.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>
+      <iframe width="42.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>
       <div class="audio">
         <div class="audio-box">
           <p>Ad Council - 'Grown Up'</p>
@@ -314,17 +347,35 @@
           </audio>
         </div>
       </div>
-      </div>
-    <h3>Writing/Producing/Acting:</h3>
+    </div>
+    <h3>View More...</h3>
+    <div class="reel-boxes">
+      <div class="box-commercials"><h2>Commercials</h2></div>
+      <div class="box-legit"><h2>Legit</h2></div>
+      <div class="box-featured"><h2>Featured</h2></div>
+      <div class="box-writing"><h2>Writing<br>Producing<br>Acting</h2></div>
+    </div>
+  </div>
+
+  <div class="reels-writing">
+    <h1>Reels</h1>
+    <h3 id="crunched">Writing/Producing/Acting:</h3>
     <div class="writing">
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/TNRg9xHf_Qg" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/dh1Xi7hmXUA" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/f81_ulKRvKI" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/m2edqMLUSfU" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/aZS1yjbAZNo" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/AOy8NcpThL4" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/IV00A2j0ydo" frameborder="0" allowfullscreen></iframe>
-      <iframe width="32%" height="315" src="https://www.youtube.com/embed/yays9dsciOE" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/TNRg9xHf_Qg" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/dh1Xi7hmXUA" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/f81_ulKRvKI" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/m2edqMLUSfU" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/aZS1yjbAZNo" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/AOy8NcpThL4" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/IV00A2j0ydo" frameborder="0" allowfullscreen></iframe>
+      <iframe width="32%" height="255" src="https://www.youtube.com/embed/yays9dsciOE" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <h3>View More...</h3>
+    <div class="reel-boxes">
+      <div class="box-commercials"><h2>Commercials</h2></div>
+      <div class="box-legit"><h2>Legit</h2></div>
+      <div class="box-voiceover"><h2>Voiceover</h2></div>
+      <div class="box-featured"><h2>Featured</h2></div>
     </div>
   </div>
 

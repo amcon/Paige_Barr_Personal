@@ -7,7 +7,7 @@ h1 {
   color: salmon;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
@@ -85,7 +85,7 @@ p {
           display: flex;
           justify-content: center;
           align-items: flex-end;
-          padding-bottom: 3.5%;
+          padding-bottom: 2%;
         }
 
         .header nav p {
@@ -153,10 +153,11 @@ p {
           align-items: center;
         }
 
-        .news-reel:hover {
+        .news-reel:hover, .news-legit:hover {
           color: salmon;
           cursor: pointer;
         }
+
 
 /*-----------------------------------*/
 
@@ -281,6 +282,7 @@ p {
           justify-content: space-between;
           align-items: center;
           flex-wrap: wrap;
+          text-align: center;
         }
 
         .picture-box img {
@@ -291,16 +293,18 @@ p {
         }
 
 
+
+
 /*-----------------------------------*/
 
 
-.reels {
+.reels-featured {
   width: 80%;
   height: 1200px;
   position: absolute;
   top: 200px;
   /*background-color: #FAFAFA;*/
-  overflow: scroll;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,13 +314,71 @@ p {
   opacity: 0;
 }
 
-        .reels h1 {
+        .reels-featured h1 {
           margin: 0 0 1% 0;
         }
 
-         .reels h3 {
+         .reels-featured h3 {
           margin: 3% 0 2% 0;
          }
+
+         .reels-featured iframe {
+          margin: 5% 0 5% 0;
+         }
+
+        iframe {
+          margin-right: 1%;
+          margin-bottom: 1%;
+        }
+
+        .reel-boxes {
+          height: 300px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .reel-boxes div {
+          height: 200px;
+          width: 23%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          border: 1px solid black;
+          text-align: center;
+        }
+
+        .reel-boxes div:hover {
+          background-color: salmon;
+          color: white;
+        }
+
+        .reel-boxes h2 {
+          font-size: 20px;
+        }
+
+
+/*-----------------------------------*/
+
+
+.reels-commercials {
+  width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  /*background-color: #FAFAFA;*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
 
         .comercials {
           width: 100%;
@@ -324,6 +386,28 @@ p {
           flex-wrap: wrap;
           flex-direction: row;
         }
+
+
+/*-----------------------------------*/
+
+
+
+.reels-legit {
+  width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  /*background-color: #FAFAFA;*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+
 
         .legit {
           width: 100%;
@@ -333,6 +417,28 @@ p {
           flex-direction: row;
         }
 
+
+
+/*-----------------------------------*/
+
+
+
+.reels-voiceover {
+  width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  /*background-color: #FAFAFA;*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+
         .voiceover {
           width: 100%;
           height: 700px;
@@ -341,9 +447,18 @@ p {
           flex-wrap: wrap;
         }
 
+        #voice {
+          margin-bottom: 5%;
+        }
+
+        #space {
+          margin-left: 5%;
+        }
+
               .audio {
                 height: 300px;
-                width: 100%;
+                width: 80%;
+                margin-left: 10%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -369,7 +484,31 @@ p {
                 width: 30%;
                 text-align: left;
                 margin-top: 4.2%;
+                font-weight: lighter;
+                font-size: 15px;
               }
+
+
+
+/*-----------------------------------*/
+
+
+
+.reels-writing {
+  width: 80%;
+  height: 1200px;
+  position: absolute;
+  top: 200px;
+  /*background-color: #FAFAFA;*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
 
         .writing {
           width: 100%;
@@ -379,10 +518,10 @@ p {
           flex-direction: row;
         }
 
-        iframe {
-          margin-right: 1%;
-          margin-bottom: 1%;
+        #crunched {
+          margin-top: -1%;
         }
+
 
 
 /*-----------------------------------*/
