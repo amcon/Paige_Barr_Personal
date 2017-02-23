@@ -354,6 +354,7 @@ p {
         .reel-boxes div:hover {
           background-color: salmon;
           color: white;
+          border: none;
         }
 
         .reel-boxes h2 {
