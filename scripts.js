@@ -23,11 +23,13 @@ console.log("I'm here");
     // }
     console.log(history.state);
     if (history.state.doc === 'resume') {
+      $(".main-container").css(opacity: 0);
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'about') {
+      $(".main-container").css('opacity', '1');
       $(".about").css({
         opacity: '1',
         "z-index": '1'
@@ -37,13 +39,7 @@ console.log("I'm here");
 
 
   $("#about").click(function() {
-    $(".resume").css('opacity', '0');
-    $(".headshots_and_photos").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function aboutModal() {
       history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/about");
