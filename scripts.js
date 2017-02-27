@@ -30,7 +30,7 @@ console.log("I'm here");
     } else if (history.state.doc === 'about') {
       $(".about").css({
         opacity: '1',
-        "z-index": '1';
+        "z-index": '1'
       });
     }
   }
