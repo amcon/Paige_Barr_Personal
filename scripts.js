@@ -35,6 +35,7 @@ console.log("I'm here");
     $(".reels-writing").css('opacity', '0');
 
     function aboutModal() {
+      history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/about");
       $(".about").css({
         opacity: '1',
         "z-index": '1'
