@@ -22,6 +22,17 @@ console.log("I'm here");
     //     console.log(event.state.doc)
     // }
     console.log(history.state);
+    if (history.state.doc === 'resume') {
+      $(".resume").css({
+        opacity: '1',
+        "z-index": '1';
+      });
+    } else if (history.state.doc === 'about') {
+      $(".about").css({
+        opacity: '1',
+        "z-index": '1';
+      });
+    }
   }
 
 
