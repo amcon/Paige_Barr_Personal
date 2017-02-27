@@ -21,7 +21,7 @@ console.log("I'm here");
     //   case 'resume':
     //     console.log(event.state.doc)
     // }
-    console.log("I fired");
+    console.log(history.state);
   }
 
 
