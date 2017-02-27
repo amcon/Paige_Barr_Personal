@@ -2,6 +2,9 @@ console.log("I'm here");
 
 $(function(){
 
+
+  $("html, body").animate({ scrollTop: 0 }, 0);
+
   function titleDisappear() {
     $(".title-screen").css('opacity', '0');
   };
@@ -132,6 +135,7 @@ $(function(){
     $(".reels-legit").css('opacity', '0');
     $(".reels-voiceover").css('opacity', '0');
     $(".reels-writing").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function commercialsModal() {
       $(".reels-commercials").css({
@@ -152,6 +156,7 @@ $(function(){
     $(".reels-legit").css('opacity', '0');
     $(".reels-voiceover").css('opacity', '0');
     $(".reels-writing").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function featuredModal() {
       $(".reels-featured").css({
@@ -172,6 +177,7 @@ $(function(){
     $(".reels-featured").css('opacity', '0');
     $(".reels-voiceover").css('opacity', '0');
     $(".reels-writing").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function legitModal() {
       $(".reels-legit").css({
@@ -192,6 +198,7 @@ $(function(){
     $(".reels-featured").css('opacity', '0');
     $(".reels-legit").css('opacity', '0');
     $(".reels-writing").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function voiceModal() {
       $(".reels-voiceover").css({
@@ -212,6 +219,7 @@ $(function(){
     $(".reels-featured").css('opacity', '0');
     $(".reels-legit").css('opacity', '0');
     $(".reels-voiceover").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function writingModal() {
       $(".reels-writing").css({

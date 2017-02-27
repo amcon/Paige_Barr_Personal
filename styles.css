@@ -354,6 +354,7 @@ p {
           background-color: salmon;
           color: white;
           border: none;
+          cursor: pointer;
         }
 
         .reel-boxes h2 {
