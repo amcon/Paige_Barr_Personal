@@ -1,9 +1,10 @@
-console.log("I'm here");
-
 $(function(){
+console.log("I'm here");
 
 
   $("html, body").animate({ scrollTop: 0 }, 0);
+
+  console.log(history.state);
 
   function titleDisappear() {
     $(".title-screen").css('opacity', '0');
@@ -57,6 +58,7 @@ $(function(){
     $(".reels-writing").css('opacity', '0');
 
     function resumeModal() {
+       history.pushState({page: 2}, null, "/resume");
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
