@@ -25,7 +25,7 @@ console.log("I'm here");
     if (history.state.doc === 'resume') {
       $(".resume").css({
         opacity: '1',
-        "z-index": '1';
+        "z-index": '1'
       });
     } else if (history.state.doc === 'about') {
       $(".about").css({
