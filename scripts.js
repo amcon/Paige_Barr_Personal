@@ -58,7 +58,7 @@ console.log("I'm here");
     $(".reels-writing").css('opacity', '0');
 
     function resumeModal() {
-       history.pushState({page: 2}, null, "/resume");
+       history.pushState({page: 2}, null, "/Paige_Barr_Personal/resume");
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
