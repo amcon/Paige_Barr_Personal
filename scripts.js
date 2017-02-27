@@ -63,13 +63,7 @@ console.log("I'm here");
 
 
   $("#resume").click(function() {
-    $(".about").css('opacity', '0');
-    $(".headshots_and_photos").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function resumeModal() {
        history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/resume");
@@ -91,13 +85,7 @@ console.log("I'm here");
   });
 
   $("#headshots").click(function() {
-    $(".resume").css('opacity', '0');
-    $(".about").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function headshotModal() {
       $(".headshots_and_photos").css({
@@ -120,13 +108,7 @@ console.log("I'm here");
 
 
   $("#reels").click(function() {
-    $(".resume").css('opacity', '0');
-    $(".headshots_and_photos").css('opacity', '0');
-    $(".about").css('opacity', '0');
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function reelsModal() {
       $(".reels-featured").css({
@@ -147,10 +129,7 @@ console.log("I'm here");
 
 
   $(".box-commercials").click(function() {
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function commercialsModal() {
@@ -168,10 +147,7 @@ console.log("I'm here");
 
 
   $(".box-featured").click(function() {
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function featuredModal() {
@@ -189,10 +165,7 @@ console.log("I'm here");
 
 
   $(".box-legit").click(function() {
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function legitModal() {
@@ -210,10 +183,7 @@ console.log("I'm here");
 
 
   $(".box-voiceover").click(function() {
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-writing").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function voiceModal() {
@@ -231,10 +201,7 @@ console.log("I'm here");
 
 
   $(".box-writing").click(function() {
-    $(".reels-commercials").css('opacity', '0');
-    $(".reels-featured").css('opacity', '0');
-    $(".reels-legit").css('opacity', '0');
-    $(".reels-voiceover").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function writingModal() {
