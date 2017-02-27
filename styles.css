@@ -27,7 +27,7 @@ p {
   top: 0;
   z-index: 2;
   background-image: url("public/stock-subway.jpeg");
-  background-size: 100% 50%;
+  background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;
