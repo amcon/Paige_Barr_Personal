@@ -29,7 +29,7 @@ console.log("I'm here");
         "z-index": '1'
       });
     } else if (history.state.doc === 'about') {
-      $(".main-container").css('opacity', '1');
+      $(".main-container").css('opacity', '0');
       $(".about").css({
         opacity: '1',
         "z-index": '1'
