@@ -17,10 +17,11 @@ console.log("I'm here");
   setTimeout(titleDisappear2, 3000);
 
   window.onpopstate = (event) => {
-    switch(event.state.doc) {
-      case 'resume':
-        console.log(event.state.doc)
-    }
+    // switch(event.state.doc) {
+    //   case 'resume':
+    //     console.log(event.state.doc)
+    // }
+    console.log("I fired");
   }
 
 
