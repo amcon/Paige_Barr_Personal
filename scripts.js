@@ -23,7 +23,7 @@ console.log("I'm here");
     // }
     console.log(history.state);
     if (history.state.doc === 'resume') {
-      $(".main-container").css(opacity: 0);
+      $(".main-container").css('opacity': '0');
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
