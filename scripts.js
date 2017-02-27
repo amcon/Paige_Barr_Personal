@@ -16,7 +16,12 @@ console.log("I'm here");
   };
   setTimeout(titleDisappear2, 3000);
 
-
+  window.onpopstate = (event) => {
+    switch(event.state.doc) {
+      case 'resume':
+        console.log(event.state.doc)
+    }
+  }
 
 
   $("#about").click(function() {
@@ -58,7 +63,7 @@ console.log("I'm here");
     $(".reels-writing").css('opacity', '0');
 
     function resumeModal() {
-       history.pushState({page: 2}, null, "/Paige_Barr_Personal/resume");
+       history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/resume");
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
