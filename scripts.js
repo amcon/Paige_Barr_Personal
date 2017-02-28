@@ -4,6 +4,7 @@ console.log("I'm here");
 
   $("html, body").animate({ scrollTop: 0 }, 0);
 
+  history.pushState({doc: 'home'}, null, "/Paige_Barr_Personal/");
   console.log(history.state);
 
   function titleDisappear() {
@@ -34,8 +35,61 @@ console.log("I'm here");
         opacity: '1',
         "z-index": '1'
       });
-    }
-  }
+    } else if (history.state.doc === 'headshots') {
+      $(".main-container").css('opacity', '0');
+      $(".headshots_and_photos").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-featured").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels-featured') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-featured").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels-commercials') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-commercials").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels-legit') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-legit").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels-voiceover') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-voiceover").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'reels-writing') {
+      $(".main-container").css('opacity', '0');
+      $(".reels-writing").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else if (history.state.doc === 'home') {
+      $(".main-container").css('opacity', '0');
+      $(".about").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    } else {
+      $(".main-container").css('opacity', '0');
+      $(".about").css({
+        opacity: '1',
+        "z-index": '1'
+      });
+    };
 
 
   $("#about").click(function() {
@@ -43,19 +97,11 @@ console.log("I'm here");
 
     function aboutModal() {
       history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/about");
+      $(".main-container").css('z-index', '0');
       $(".about").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".resume").css('z-index', '0');
-      $(".headshots_and_photos").css('z-index', '0');
-      $(".reels-featured").css({
-        "z-index": '0',
-      });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(aboutModal, 1000);
   });
@@ -67,40 +113,28 @@ console.log("I'm here");
 
     function resumeModal() {
        history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/resume");
-      $(".resume").css({
-        opacity: '1',
-        "z-index": '1'
-      });
-      $(".about").css('z-index', '0');
-      $(".headshots_and_photos").css('z-index', '0');
-      $(".reels-featured").css({
-        "z-index": '0',
-      });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
-    };
-    setTimeout(resumeModal, 1000);
+       $(".main-container").css('z-index', '0');
+       $(".resume").css({
+         opacity: '1',
+         "z-index": '1'
+        });
+      };
+      setTimeout(resumeModal, 1000);
   });
+
+
+
 
   $("#headshots").click(function() {
     $(".main-container").css('opacity', '0');
 
     function headshotModal() {
+      history.pushState({doc: 'headshots'}, null, "/Paige_Barr_Personal/headshots");
+      $(".main-container").css('z-index', '0');
       $(".headshots_and_photos").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".about").css('z-index', '0');
-      $(".resume").css('z-index', '0');
-      $(".reels-featured").css({
-        "z-index": '0',
-      });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(headshotModal, 800);
   });
@@ -111,17 +145,12 @@ console.log("I'm here");
     $(".main-container").css('opacity', '0');
 
     function reelsModal() {
+      history.pushState({doc: 'reels'}, null, "/Paige_Barr_Personal/reels");
+      $(".main-container").css('z-index', '0');
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".about").css('z-index', '0');
-      $(".resume").css('z-index', '0');
-      $(".headshots_and_photos").css('z-index', '0');
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(reelsModal, 1000);
   });
@@ -133,14 +162,12 @@ console.log("I'm here");
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function commercialsModal() {
+      history.pushState({doc: 'reels-commercials'}, null, "/Paige_Barr_Personal/reels/commercials");
+      $(".main-container").css('z-index', '0');
       $(".reels-commercials").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".reels-featured").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(commercialsModal, 800);
   });
@@ -151,17 +178,16 @@ console.log("I'm here");
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function featuredModal() {
+      history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/reels/featured");
+      $(".main-container").css('z-index', '0');
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(featuredModal, 800);
   });
+
 
 
   $(".box-legit").click(function() {
@@ -169,17 +195,16 @@ console.log("I'm here");
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function legitModal() {
+      history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/reels/legit");
+      $(".main-container").css('z-index', '0');
       $(".reels-legit").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-featured").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(legitModal, 800);
   });
+
 
 
   $(".box-voiceover").click(function() {
@@ -187,14 +212,12 @@ console.log("I'm here");
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function voiceModal() {
+      history.pushState({doc: 'reels-voiceover'}, null, "/Paige_Barr_Personal/reels/voiceover");
+      $(".main-container").css('z-index', '0');
       $(".reels-voiceover").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-featured").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-writing").css('z-index', '0');
     };
     setTimeout(voiceModal, 800);
   });
@@ -205,14 +228,12 @@ console.log("I'm here");
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function writingModal() {
+      history.pushState({doc: 'reels-writing'}, null, "/Paige_Barr_Personal/reels/writing");
+      $(".main-container").css('z-index', '0');
       $(".reels-writing").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".reels-commercials").css('z-index', '0');
-      $(".reels-featured").css('z-index', '0');
-      $(".reels-legit").css('z-index', '0');
-      $(".reels-voiceover").css('z-index', '0');
     };
     setTimeout(writingModal, 800);
   });
@@ -220,35 +241,29 @@ console.log("I'm here");
 
 
   $(".news-reel").click(function() {
-    $(".resume").css('opacity', '0');
-    $(".headshots_and_photos").css('opacity', '0');
-    $(".about").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function reelsModal() {
+      history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/reels/featured");
+      $(".main-container").css('z-index', '0');
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".about").css('z-index', '0');
-      $(".resume").css('z-index', '0');
-      $(".headshots_and_photos").css('z-index', '0');
     };
     setTimeout(reelsModal, 1000);
   });
 
   $(".news-legit").click(function() {
-    $(".resume").css('opacity', '0');
-    $(".headshots_and_photos").css('opacity', '0');
-    $(".about").css('opacity', '0');
+    $(".main-container").css('opacity', '0');
 
     function reelsModal() {
+      history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/reels/legit");
+      $(".main-container").css('z-index', '0');
       $(".reels-legit").css({
         opacity: '1',
         "z-index": '1'
       });
-      $(".about").css('z-index', '0');
-      $(".resume").css('z-index', '0');
-      $(".headshots_and_photos").css('z-index', '0');
     };
     setTimeout(reelsModal, 1000);
   });
