@@ -389,6 +389,10 @@ p {
           flex-direction: row;
         }
 
+        #view-more {
+          margin-top: 1%;
+          margin-bottom: -1%;
+        }
 
 /*-----------------------------------*/
 
