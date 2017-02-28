@@ -273,6 +273,7 @@ $(function(){
 
   $(".news-reel").click(function() {
     $(".main-container").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function reelsModal() {
       history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
@@ -290,6 +291,7 @@ $(function(){
 
   $(".news-legit").click(function() {
     $(".main-container").css('opacity', '0');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function reelsModal() {
       history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
