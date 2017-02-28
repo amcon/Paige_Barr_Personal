@@ -114,6 +114,7 @@ $(function(){
     function aboutModal() {
       history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/#/about");
       $(".main-container").css('z-index', '0');
+      $(".writing").children('iframe').remove();
       $(".about").css({
         opacity: '1',
         "z-index": '1'
@@ -130,6 +131,7 @@ $(function(){
     function resumeModal() {
        history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/#/resume");
        $(".main-container").css('z-index', '0');
+       $(".writing").children('iframe').remove();
        $(".resume").css({
          opacity: '1',
          "z-index": '1'
@@ -147,6 +149,7 @@ $(function(){
     function headshotModal() {
       history.pushState({doc: 'headshots'}, null, "/Paige_Barr_Personal/#/headshots");
       $(".main-container").css('z-index', '0');
+      $(".writing").children('iframe').remove();
       $(".headshots_and_photos").css({
         opacity: '1',
         "z-index": '1'
@@ -163,6 +166,7 @@ $(function(){
     function reelsModal() {
       history.pushState({doc: 'reels'}, null, "/Paige_Barr_Personal/#/reels");
       $(".main-container").css('z-index', '0');
+      $(".writing").children('iframe').remove();
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
@@ -180,6 +184,7 @@ $(function(){
                   function commercialsModal() {
                     history.pushState({doc: 'reels-commercials'}, null, "/Paige_Barr_Personal/#/reels/commercials");
                     $(".main-container").css('z-index', '0');
+                    $(".writing").children('iframe').remove();
                     $(".reels-commercials").css({
                       opacity: '1',
                       "z-index": '1'
@@ -196,6 +201,7 @@ $(function(){
                   function featuredModal() {
                     history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
                     $(".main-container").css('z-index', '0');
+                    $(".writing").children('iframe').remove();
                     $(".reels-featured").css({
                       opacity: '1',
                       "z-index": '1'
@@ -213,6 +219,7 @@ $(function(){
                   function legitModal() {
                     history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
                     $(".main-container").css('z-index', '0');
+                    $(".writing").children('iframe').remove();
                     $(".reels-legit").css({
                       opacity: '1',
                       "z-index": '1'
@@ -230,6 +237,7 @@ $(function(){
                   function voiceModal() {
                     history.pushState({doc: 'reels-voiceover'}, null, "/Paige_Barr_Personal/#/reels/voiceover");
                     $(".main-container").css('z-index', '0');
+                    $(".writing").children('iframe').remove();
                     $(".reels-voiceover").css({
                       opacity: '1',
                       "z-index": '1'
@@ -268,6 +276,7 @@ $(function(){
     function reelsModal() {
       history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
       $(".main-container").css('z-index', '0');
+      $(".writing").children('iframe').remove();
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
@@ -284,6 +293,7 @@ $(function(){
     function reelsModal() {
       history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
       $(".main-container").css('z-index', '0');
+      $(".writing").children('iframe').remove();
       $(".reels-legit").css({
         opacity: '1',
         "z-index": '1'
