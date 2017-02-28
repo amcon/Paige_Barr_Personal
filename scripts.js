@@ -238,7 +238,9 @@ $(function(){
                   setTimeout(voiceModal, 800);
                 });
 
-
+                // I'm choosing to append these videos now because the page cannot
+                // handle all 19 videos that are requested by my client on the initial
+                // load of the page
                 $(".box-writing").click(function() {
                   $(".main-container").css('opacity', '0');
                   $("html, body").animate({ scrollTop: 0 }, "slow");
