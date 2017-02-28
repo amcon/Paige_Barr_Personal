@@ -1,6 +1,4 @@
 $(function(){
-console.log("I'm here");
-
 
   $("html, body").animate({ scrollTop: 0 }, 0);
 
@@ -89,7 +87,8 @@ console.log("I'm here");
         opacity: '1',
         "z-index": '1'
       });
-    };
+    }
+  };
 
 
   $("#about").click(function() {
@@ -254,6 +253,8 @@ console.log("I'm here");
     setTimeout(reelsModal, 1000);
   });
 
+
+
   $(".news-legit").click(function() {
     $(".main-container").css('opacity', '0');
 
@@ -291,4 +292,4 @@ console.log("I'm here");
     window.open("https://www.youtube.com/user/paigemcp", "_blank");
   });
 
-})
+});
