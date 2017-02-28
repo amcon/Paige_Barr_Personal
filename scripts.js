@@ -15,6 +15,7 @@ $(function(){
   // main site
   function titleDisappear() {
     $(".title-screen").css('opacity', '0');
+    $(".initial").css('opacity', '1');
   };
   setTimeout(titleDisappear, 1500);
   function titleDisappear2() {
