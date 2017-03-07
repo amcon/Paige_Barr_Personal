@@ -8,11 +8,11 @@ $(function(){
 
   $("html, body").animate({ scrollTop: 0 }, 0);
 
-  window.onload=function(){
-    setTimeout(function(){
-        scrollTo(0,-1);
-    },1000)
-  };
+  // window.onload=function(){
+  //   setTimeout(function(){
+  //       scrollTo(0,-1);
+  //   },1000)
+  // };
 
 
 
