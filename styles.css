@@ -186,7 +186,7 @@ p {
 }
 
         .resume h1 {
-          margin: 0;
+          margin: 5% 0 0 0;
           font-size: 40px;
         }
 
@@ -281,7 +281,11 @@ p {
   opacity: 0;
 }
 
-        .headshots_and_photos h1, .headshots_and_photos p {
+        .headshots_and_photos h1 {
+          margin: 5% 0 0 0;
+        }
+
+        .headshots_and_photos p {
           margin: 0;
         }
 
@@ -324,7 +328,7 @@ p {
 }
 
         .reels-featured h1 {
-          margin: 0 0 1% 0;
+          margin: 5% 0 1% 0;
         }
 
          .reels-featured h3 {
@@ -438,7 +442,7 @@ p {
         }
 
         .reels-legit h1 {
-          margin-top: -1%;
+          margin-top: 5%;
         }
 
 
@@ -547,7 +551,7 @@ p {
         }
 
         #room {
-          margin-top: -2%;
+          margin-top: 2%;
         }
 
         .reels-writing .reel-boxes {
