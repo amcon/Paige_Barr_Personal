@@ -2,6 +2,7 @@ $(function(){
 
   // this ensures that on reload, the scroll position is at the top for
   // the title page load.
+  checkScroll();
   $("html, body").animate({ scrollTop: 0 }, 0);
   window.onload=function(){
     setTimeout(function(){
@@ -12,7 +13,7 @@ $(function(){
     if ('scrollRestoration' in history) {
       history.scrollRestoration = 'manual';
     }
-  }();
+  };
 
 
 
