@@ -2,6 +2,7 @@ $(function(){
 
   // this ensures that on reload, the scroll position is at the top for
   // the title page load.
+  console.log("im new");
   if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   };
