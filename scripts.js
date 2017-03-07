@@ -3,6 +3,11 @@ $(function(){
   // this ensures that on reload, the scroll position is at the top for
   // the title page load.
   $("html, body").animate({ scrollTop: 0 }, 0);
+  window.onload=function(){
+    setTimeout(function(){
+        scrollTo(0,-1);
+    },0);
+  }
 
 
 
