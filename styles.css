@@ -476,7 +476,7 @@ p {
         }
 
         #bottom {
-          margin: -2% 0 5% 0;
+          margin: -1% 0 5% 0;
         }
 
         #space {
@@ -491,11 +491,11 @@ p {
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: flex-start;
-                background-color: transparent;
               }
 
               audio {
                 width: 70%;
+                background-color: transparent;
               }
 
               .audio-box {
