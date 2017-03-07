@@ -116,6 +116,9 @@ $(function(){
       history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/#/about");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
+      $(".commercials").children('iframe').remove();
+      $(".legit").children('iframe').remove();
+      $(".voiceover").children('iframe').remove();
       $(".about").css({
         opacity: '1',
         "z-index": '1'
@@ -133,6 +136,9 @@ $(function(){
        history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/#/resume");
        $(".main-container").css('z-index', '0');
        $(".writing").children('iframe').remove();
+       $(".commercials").children('iframe').remove();
+       $(".legit").children('iframe').remove();
+       $(".voiceover").children('iframe').remove();
        $(".resume").css({
          opacity: '1',
          "z-index": '1'
@@ -151,6 +157,9 @@ $(function(){
       history.pushState({doc: 'headshots'}, null, "/Paige_Barr_Personal/#/headshots");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
+      $(".commercials").children('iframe').remove();
+      $(".legit").children('iframe').remove();
+      $(".voiceover").children('iframe').remove();
       $(".headshots_and_photos").css({
         opacity: '1',
         "z-index": '1'
@@ -168,6 +177,9 @@ $(function(){
       history.pushState({doc: 'reels'}, null, "/Paige_Barr_Personal/#/reels");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
+      $(".commercials").children('iframe').remove();
+      $(".legit").children('iframe').remove();
+      $(".voiceover").children('iframe').remove();
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
