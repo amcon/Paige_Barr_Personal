@@ -3,13 +3,10 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
-h1 {
-  color: salmon;
-}
-
 h1{
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: bold;
+  color: rgb(83, 83, 106);
 }
 
 h2, h3 {
@@ -43,7 +40,7 @@ p {
           color: white;
           font-size: 100px;
           font-weight: lighter;
-          text-shadow: 1.5px 1.5px salmon;
+          text-shadow: 1.5px 1.5px rgb(83, 83, 106);
         }
 
 
@@ -104,7 +101,7 @@ p {
 
         .header nav p:hover {
           cursor: pointer;
-          color: salmon;
+          color: rgb(83, 83, 106);
         }
 
 
@@ -164,7 +161,7 @@ p {
         }
 
         .news-reel:hover, .news-legit:hover {
-          color: salmon;
+          color: rgb(83, 83, 106);
           cursor: pointer;
         }
 
@@ -364,7 +361,7 @@ p {
         }
 
         .reel-boxes div:hover {
-          background-color: salmon;
+          background-color: rgb(83, 83, 106);
           color: white;
           border: none;
           cursor: pointer;
