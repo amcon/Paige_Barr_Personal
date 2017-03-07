@@ -163,10 +163,8 @@ p {
           margin: 7% 0 0 0;
         }
 
-        .news p {
-          display: block;
+        .news-container {
           width: 80%;
-          text-align: left;
         }
 
         .news-reel:hover, .news-legit:hover {
