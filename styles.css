@@ -159,7 +159,7 @@ p {
           justify-content: flex-start;
           align-items: center;
           overflow: scroll;
-          margin: 0 0 0 10%;
+          padding: 0 10% 0 10%;
         }
 
         .news-reel:hover, .news-legit:hover {
