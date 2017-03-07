@@ -117,7 +117,7 @@ p {
   overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   z-index: 1;
   transition: 0.5s;
@@ -178,7 +178,7 @@ p {
   overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   z-index: 0;
   transition: 0.5s;
@@ -274,7 +274,7 @@ p {
   overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   z-index: 0;
   transition: 0.5s;
@@ -380,7 +380,7 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   z-index: 0;
   transition: 0.5s;
@@ -416,7 +416,7 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   z-index: 0;
   transition: 0.5s;
@@ -456,7 +456,7 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   z-index: 0;
   transition: 0.5s;
@@ -527,7 +527,7 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   z-index: 0;
   transition: 0.5s;
