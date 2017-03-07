@@ -156,8 +156,10 @@ p {
           width: 100%;
           display: flex;
           flex-direction: column;
+          flex-wrap: wrap;
           justify-content: flex-start;
           align-items: center;
+          overflow: scroll;
         }
 
         .news-reel:hover, .news-legit:hover {
