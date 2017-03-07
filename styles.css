@@ -71,6 +71,7 @@ p {
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
+          margin-left: -30%;
         }
 
         .title h1 {
@@ -87,13 +88,13 @@ p {
 
         .header nav {
           height: 140px;
-          width: 30%;
+          width: 50%;
           display: flex;
           justify-content: center;
           align-items: flex-end;
           padding-bottom: 2%;
           position: absolute;
-          top: 150px;
+          top: 100px;
           left: 50%;
         }
 
