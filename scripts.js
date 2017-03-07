@@ -16,11 +16,13 @@ $(function(){
   function titleDisappear() {
     $(".title-screen").css('opacity', '0');
     $(".initial").css('opacity', '1');
+    $("html, body").animate({ scrollTop: 0 }, 0);
   };
   setTimeout(titleDisappear, 1500);
   function titleDisappear2() {
     history.pushState({doc: 'home'}, null, "/Paige_Barr_Personal/");
     $(".title-screen").css('z-index', '0');
+    $("html, body").animate({ scrollTop: 0 }, 0);
   };
   setTimeout(titleDisappear2, 3000);
 
