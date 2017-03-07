@@ -160,14 +160,18 @@ p {
           align-items: center;
         }
 
-        .news-container {
-          width: 80%;
-        }
+                .news-container h1 {
+                  margin: 3% 0 0 0;
+                }
 
-        .news-reel:hover, .news-legit:hover {
-          color: rgb(40, 60, 140);
-          cursor: pointer;
-        }
+                .news-container {
+                  width: 80%;
+                }
+
+                .news-reel:hover, .news-legit:hover {
+                  color: rgb(40, 60, 140);
+                  cursor: pointer;
+                }
 
 
 /*-----------------------------------*/
