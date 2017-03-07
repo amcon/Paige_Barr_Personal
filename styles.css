@@ -6,7 +6,7 @@ body {
 h1{
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: bold;
-  color: rgb(40, 60, 140);
+  color: lightblue;
 }
 
 h2, h3 {
@@ -40,7 +40,7 @@ p {
           color: white;
           font-size: 100px;
           font-weight: lighter;
-          text-shadow: 1.5px 1.5px rgb(40, 60, 140);
+          text-shadow: 1.5px 1.5px lightblue;
         }
 
 
@@ -101,7 +101,7 @@ p {
 
         .header nav p:hover {
           cursor: pointer;
-          color: rgb(40, 60, 140);
+          color: lightblue;
         }
 
 
@@ -161,7 +161,7 @@ p {
         }
 
         .news-reel:hover, .news-legit:hover {
-          color: rgb(40, 60, 140);
+          color: lightblue;
           cursor: pointer;
         }
 
@@ -361,7 +361,7 @@ p {
         }
 
         .reel-boxes div:hover {
-          background-color: rgb(40, 60, 140);
+          background-color: lightblue;
           color: white;
           border: none;
           cursor: pointer;
