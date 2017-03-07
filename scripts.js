@@ -7,7 +7,12 @@ $(function(){
     setTimeout(function(){
         scrollTo(0,-1);
     },1000);
-  }
+  };
+  function checkScroll() {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+  }();
 
 
 
