@@ -106,7 +106,7 @@ $(function(){
 
   // these click functions and setTimeouts are the CSS transitions given to the
   // single page application to make it seem multi-page and seamless. It causes
-  // the container its on to fade away, and then brings the new view into site,
+  // the container being viewed to fade away, and then brings the new view into site,
   // which activates a fade in.
 
   $("#about").click(function() {
@@ -186,10 +186,13 @@ $(function(){
                     history.pushState({doc: 'reels-commercials'}, null, "/Paige_Barr_Personal/#/reels/commercials");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
+                    $(".legit").children('iframe').remove();
+                    $(".voiceover").children('iframe').remove();
                     $(".reels-commercials").css({
                       opacity: '1',
                       "z-index": '1'
                     });
+                    $(".commercials").append('<iframe preload="none" width="48.5%" height="315" src="https://www.youtube.com/embed/EwYS-n0vfhg" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/ermeaUMJBLQ" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/981OA_BZ42Q" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/nyzwGO_saN4" frameborder="0" allowfullscreen></iframe>');
                   };
                   setTimeout(commercialsModal, 800);
                 });
@@ -203,6 +206,9 @@ $(function(){
                     history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
+                    $(".commercials").children('iframe').remove();
+                    $(".legit").children('iframe').remove();
+                    $(".voiceover").children('iframe').remove();
                     $(".reels-featured").css({
                       opacity: '1',
                       "z-index": '1'
@@ -221,10 +227,13 @@ $(function(){
                     history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
+                    $(".commercials").children('iframe').remove();
+                    $(".voiceover").children('iframe').remove();
                     $(".reels-legit").css({
                       opacity: '1',
                       "z-index": '1'
                     });
+                    $(".legit").append('<iframe src="https://player.vimeo.com/video/34718172" width="48.5%" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/00CC2f1enjs" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/jeQAH6umtGo" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/6IygU-N1b2Y" frameborder="0" allowfullscreen></iframe>');
                   };
                   setTimeout(legitModal, 800);
                 });
@@ -239,10 +248,13 @@ $(function(){
                     history.pushState({doc: 'reels-voiceover'}, null, "/Paige_Barr_Personal/#/reels/voiceover");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
+                    $(".commercials").children('iframe').remove();
+                    $(".legit").children('iframe').remove();
                     $(".reels-voiceover").css({
                       opacity: '1',
                       "z-index": '1'
                     });
+                    $(".voiceover").prepend('<iframe id="space" width="42.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe><iframe width="42.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>');
                   };
                   setTimeout(voiceModal, 800);
                 });
@@ -257,6 +269,9 @@ $(function(){
                   function writingModal() {
                     history.pushState({doc: 'reels-writing'}, null, "/Paige_Barr_Personal/#/reels/writing");
                     $(".main-container").css('z-index', '0');
+                    $(".voiceover").children('iframe').remove();
+                    $(".commercials").children('iframe').remove();
+                    $(".legit").children('iframe').remove();
                     $(".reels-writing").css({
                       opacity: '1',
                       "z-index": '1'
