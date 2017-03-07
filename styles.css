@@ -219,35 +219,26 @@ p {
           align-items: center;
         }
 
-        .resume-container-commercials {
-          height: 100px;
-          width: 80%;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .resume-container-theatre {
-          height: 100px;
-          width: 80%;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
-
         .resume-box {
           width: 80%;
 
         }
 
+        .#commercials {
+          height: 100px;
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
         #comedy {
-          height: 120px;
+          height: 135px;
         }
 
         #theatre {
-          height: 170px;
+          height: 110px;
         }
 
         .show {
