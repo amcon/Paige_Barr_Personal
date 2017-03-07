@@ -2,9 +2,9 @@ $(function(){
 
   // this ensures that on reload, the scroll position is at the top for
   // the title page load.
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  };
+  // if ('scrollRestoration' in history) {
+  //   history.scrollRestoration = 'manual';
+  // };
 
   $("html, body").animate({ scrollTop: 0 }, 0);
 
