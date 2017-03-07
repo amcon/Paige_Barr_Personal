@@ -34,36 +34,42 @@ $(function(){
 
     console.log(history.state);
     if (history.state.doc === 'resume') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".resume").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'about') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".about").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'headshots') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".headshots_and_photos").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels-featured') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".reels-featured").css({
         opacity: '1',
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels-commercials') {
+      $(".video").children('iframe').remove();
       $(".commercials").append('<iframe preload="none" width="48.5%" height="315" src="https://www.youtube.com/embed/EwYS-n0vfhg" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/ermeaUMJBLQ" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/981OA_BZ42Q" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/nyzwGO_saN4" frameborder="0" allowfullscreen></iframe>');
       $(".main-container").css('opacity', '0');
       $(".reels-commercials").css({
@@ -71,6 +77,7 @@ $(function(){
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels-legit') {
+      $(".video").children('iframe').remove();
       $(".legit").append('<iframe src="https://player.vimeo.com/video/34718172" width="48.5%" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/00CC2f1enjs" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/jeQAH6umtGo" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/6IygU-N1b2Y" frameborder="0" allowfullscreen></iframe>');
       $(".main-container").css('opacity', '0');
       $(".reels-legit").css({
@@ -78,6 +85,7 @@ $(function(){
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels-voiceover') {
+      $(".video").children('iframe').remove();
       $(".voiceover").prepend('<iframe id="space" width="42.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe><iframe width="42.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>');
       $(".main-container").css('opacity', '0');
       $(".reels-voiceover").css({
@@ -85,6 +93,7 @@ $(function(){
         "z-index": '1'
       });
     } else if (history.state.doc === 'reels-writing') {
+      $(".video").children('iframe').remove();
       $(".writing").append('<iframe width="32%" height="255" src="https://www.youtube.com/embed/TNRg9xHf_Qg" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/dh1Xi7hmXUA" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/f81_ulKRvKI" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/m2edqMLUSfU" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/aZS1yjbAZNo" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/AOy8NcpThL4" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/IV00A2j0ydo" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="255" src="https://www.youtube.com/embed/yays9dsciOE" frameborder="0" allowfullscreen></iframe>');
       $(".main-container").css('opacity', '0');
       $(".reels-writing").css({
@@ -92,12 +101,14 @@ $(function(){
         "z-index": '1'
       });
     } else if (history.state.doc === 'home') {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".about").css({
         opacity: '1',
         "z-index": '1'
       });
     } else {
+      $(".video").children('iframe').remove();
       $(".main-container").css('opacity', '0');
       $(".about").css({
         opacity: '1',
