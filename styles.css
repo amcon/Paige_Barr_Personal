@@ -220,7 +220,7 @@ p {
         }
 
         .resume-container-commercials {
-          height: 120px;
+          height: 100px;
           width: 80%;
           display: flex;
           flex-direction: row;
