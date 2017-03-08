@@ -269,7 +269,7 @@ $(function(){
                       opacity: '1',
                       "z-index": '1'
                     });
-                    $(".legit").append('<iframe src="https://player.vimeo.com/video/34718172" width="48.5%" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/00CC2f1enjs" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/jeQAH6umtGo" frameborder="0" allowfullscreen></iframe><iframe width="48.5%" height="315" src="https://www.youtube.com/embed/6IygU-N1b2Y" frameborder="0" allowfullscreen></iframe>');
+                    $(".legit").append('<iframe src="https://player.vimeo.com/video/34718172" width="32%" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><iframe width="32%" height="315" src="https://www.youtube.com/embed/00CC2f1enjs" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="315" src="https://www.youtube.com/embed/jeQAH6umtGo" frameborder="0" allowfullscreen></iframe><iframe width="32%" height="315" src="https://www.youtube.com/embed/6IygU-N1b2Y" frameborder="0" allowfullscreen></iframe>');
                   };
                   setTimeout(legitModal, 800);
                 });
