@@ -72,7 +72,7 @@ p {
         }
 
         .title h1 {
-          margin: -4% 0 0 0;
+          margin: -3% 0 0 0;
           font-family: 'Shadows Into Light Two', cursive;
           font-size: 50px;
           font-weight: bold;
@@ -112,7 +112,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -180,7 +180,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: scroll;
   display: flex;
@@ -276,7 +276,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: scroll;
   display: flex;
@@ -321,7 +321,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -385,7 +385,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -421,7 +421,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -461,7 +461,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -533,7 +533,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 120px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -581,7 +581,7 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 1400px;
+  top: 1220px;
   opacity: 0;
 }
 
