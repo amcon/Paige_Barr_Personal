@@ -75,11 +75,11 @@ $(function(){
       $(".commercials").children('iframe').remove();
       $(".video").children('iframe').remove();
       $(".commercials").append(
+        '<iframe width="48.5%" height="300" src="https://www.ispot.tv/share/7MDH" frameborder="0" allowfullscreen></iframe>'
         '<iframe width="32%" height="300" src="https://www.youtube.com/embed/EwYS-n0vfhg" frameborder="0" allowfullscreen></iframe>',
         '<iframe width="32%" height="300" src="https://www.youtube.com/embed/ermeaUMJBLQ" frameborder="0" allowfullscreen></iframe>',
         '<iframe width="32%" height="300" src="https://www.youtube.com/embed/981OA_BZ42Q" frameborder="0" allowfullscreen></iframe>',
         '<iframe width="48.5%" height="300" src="https://www.youtube.com/embed/nyzwGO_saN4" frameborder="0" allowfullscreen></iframe>',
-        '<iframe width="48.5%" height="300" src="https://www.ispot.tv/share/7MDH" frameborder="0" allowfullscreen></iframe>'
         );
       $(".main-container").css('opacity', '0');
       $(".reels-commercials").css({
@@ -252,11 +252,11 @@ $(function(){
                       "z-index": '1'
                     });
                     $(".commercials").append(
+                      '<iframe width="48.5%" height="300" src="https://www.ispot.tv/share/7MDH" frameborder="0" allowfullscreen></iframe>'
                       '<iframe width="32%" height="300" src="https://www.youtube.com/embed/EwYS-n0vfhg" frameborder="0" allowfullscreen></iframe>',
                       '<iframe width="32%" height="300" src="https://www.youtube.com/embed/ermeaUMJBLQ" frameborder="0" allowfullscreen></iframe>',
                       '<iframe width="32%" height="300" src="https://www.youtube.com/embed/981OA_BZ42Q" frameborder="0" allowfullscreen></iframe>',
                       '<iframe width="48.5%" height="300" src="https://www.youtube.com/embed/nyzwGO_saN4" frameborder="0" allowfullscreen></iframe>',
-                      '<iframe width="48.5%" height="300" src="https://www.ispot.tv/share/7MDH" frameborder="0" allowfullscreen></iframe>'
                       );
                   };
                   setTimeout(commercialsModal, 800);
