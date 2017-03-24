@@ -6,7 +6,7 @@ body {
 h1{
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: bold;
-  color: rgb(160, 65, 117);
+  color: salmon;
 }
 
 h2, h3 {
@@ -40,7 +40,7 @@ p {
           color: white;
           font-size: 100px;
           font-weight: lighter;
-          text-shadow: 1.5px 1.5px rgb(160, 65, 117);
+          text-shadow: 1.5px 1.5px salmon;
         }
 
 
@@ -48,7 +48,7 @@ p {
 
 
 .header {
-  height: 150px;
+  height: 200px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -62,7 +62,7 @@ p {
 }
 
         .title {
-          height: 100px;
+          height: 180px;
           width: 70%;
           display: flex;
           flex-direction: column;
@@ -72,7 +72,7 @@ p {
         }
 
         .title h1 {
-          margin: -3% 0 0 0;
+          margin: 2% 0 2% 0;
           font-family: 'Shadows Into Light Two', cursive;
           font-size: 50px;
           font-weight: bold;
@@ -84,7 +84,7 @@ p {
         }
 
         .header nav {
-          height: 115px;
+          height: 140px;
           width: 50%;
           display: flex;
           justify-content: center;
@@ -101,7 +101,7 @@ p {
 
         .header nav p:hover {
           cursor: pointer;
-          color: rgb(160, 65, 117);
+          color: salmon;
         }
 
 
@@ -112,7 +112,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -168,7 +168,7 @@ p {
                 }
 
                 .news-reel:hover, .news-legit:hover {
-                  color: rgb(160, 65, 117);
+                  color: salmon;
                   cursor: pointer;
                 }
 
@@ -180,7 +180,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: scroll;
   display: flex;
@@ -276,7 +276,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: scroll;
   display: flex;
@@ -321,7 +321,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -367,7 +367,7 @@ p {
         }
 
         .reel-boxes div:hover {
-          background-color: rgb(160, 65, 117);
+          background-color: salmon;
           color: white;
           border: none;
           cursor: pointer;
@@ -385,7 +385,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -421,7 +421,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -461,7 +461,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -533,7 +533,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 150px;
+  top: 200px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -581,7 +581,7 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 1220px;
+  top: 1400px;
   opacity: 0;
 }
 
