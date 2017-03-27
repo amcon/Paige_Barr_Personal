@@ -802,6 +802,7 @@ and (orientation: portrait) {
             justify-content: flex-start;
             align-items: center;
             margin: 0;
+            font-size: 20px;
           }
 
           audio {
@@ -920,6 +921,7 @@ and (orientation: portrait) {
             justify-content: flex-start;
             align-items: center;
             margin: 0;
+            font-size: 20px;
           }
 
           audio {
@@ -1038,6 +1040,7 @@ and (orientation: portrait) {
             justify-content: flex-start;
             align-items: center;
             margin: 0;
+            font-size: 20px;
           }
 
           audio {
@@ -1156,6 +1159,7 @@ and (orientation: portrait) {
             justify-content: flex-start;
             align-items: center;
             margin: 0;
+            font-size: 20px;
           }
 
           audio {
