@@ -48,7 +48,7 @@ p {
 
 
 .header {
-  height: 200px;
+  height: 100px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -62,7 +62,7 @@ p {
 }
 
         .title {
-          height: 200px;
+          height: 100px;
           width: 70%;
           display: flex;
           flex-direction: column;
@@ -72,9 +72,9 @@ p {
         }
 
         .title h1 {
-          margin: 0 0 4% 0;
+          margin: 0;
           font-family: 'Shadows Into Light Two', cursive;
-          font-size: 55px;
+          font-size: 40px;
           font-weight: bold;
         }
 
@@ -84,7 +84,7 @@ p {
         }
 
         .header nav {
-          height: 140px;
+          height: 65px;
           width: 50%;
           display: flex;
           justify-content: center;
@@ -112,7 +112,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -229,7 +229,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: scroll;
   display: flex;
@@ -325,7 +325,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -364,7 +364,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -468,7 +468,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -508,7 +508,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -548,7 +548,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -620,7 +620,7 @@ p {
   width: 80%;
   height: 1200px;
   position: absolute;
-  top: 200px;
+  top: 100px;
   /*background-color: #FAFAFA;*/
   overflow: hidden;
   display: flex;
@@ -668,7 +668,7 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 1400px;
+  top: 1300px;
   opacity: 0;
 }
 
@@ -685,3 +685,86 @@ p {
         .footer img:hover {
           cursor: pointer;
         }
+
+/*--------------end of computer view----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------phones------------*/
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
+
+/*------------iPad------------*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1025px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1025px)
+and (orientation: landscape) {
+
+}
