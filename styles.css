@@ -151,6 +151,7 @@ p {
                 text-align: center;
                 line-height: 20px;
                 color: white;
+                background-color: purple;
               }
 
               .about-container h1 {
@@ -189,7 +190,7 @@ p {
 
                 .news p {
                   font-size: 18px;
-                  margin-bottom: 2%;
+                  margin-bottom: 7.5%;
                 }
 
                 .news-container {
