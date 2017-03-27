@@ -797,10 +797,11 @@ and (orientation: portrait) {
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
+            margin: 0;
           }
 
           audio {
-            height: 50px;
+            height: 100%;
             font-size: 20px;
           }
 
@@ -909,10 +910,11 @@ and (orientation: portrait) {
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
+            margin: 0;
           }
 
           audio {
-            height: 50px;
+            height: 100%;
             font-size: 20px;
           }
 
@@ -1021,10 +1023,11 @@ and (orientation: portrait) {
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
+            margin: 0;
           }
 
           audio {
-            height: 50px;
+            height: 100%;
             font-size: 20px;
           }
 
@@ -1133,10 +1136,11 @@ and (orientation: portrait) {
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
+            margin: 0;
           }
 
           audio {
-            height: 50px;
+            height: 100%;
             font-size: 20px;
           }
 
