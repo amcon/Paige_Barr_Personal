@@ -404,7 +404,7 @@ $(function(){
 
   // To show more information below, click on the button to scroll to that position
   $('#news-below').click(function() {
-    $('html, body').animate({ scrollTop: 500 }, "slow");
+    $('html, body').animate({ scrollTop: 1000 }, "fast");
   });
 
 

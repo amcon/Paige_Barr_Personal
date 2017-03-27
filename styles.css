@@ -170,6 +170,7 @@ p {
                         background-color: rgb(160, 65, 117);
                         color: white;
                         border: none;
+                        cursor: pointer;
                       }
 
               .about-container h1 {
