@@ -811,7 +811,7 @@ and (orientation: portrait) {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            padding-top: 2%;
+            padding-top: 20%;
           }
 
   .footer {
@@ -933,7 +933,7 @@ and (orientation: portrait) {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            padding-top: 2%;
+            padding-top: 20%;
           }
 
   .footer {
@@ -1055,7 +1055,7 @@ and (orientation: portrait) {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            padding-top: 2%;
+            padding-top: 20%;
           }
 
   .footer {
@@ -1177,7 +1177,7 @@ and (orientation: portrait) {
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            padding-top: 2%;
+            padding-top: 20%;
           }
 
   .footer {
