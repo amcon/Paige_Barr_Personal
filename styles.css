@@ -733,6 +733,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about img {
+            margin-top: 10%;
+          }
+
+          .about-text p {
+            line-height: 27px;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -774,6 +782,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about img {
+            margin-top: 10%;
+          }
+
+          .about-text p {
+            line-height: 27px;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -815,6 +831,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about img {
+            margin-top: 10%;
+          }
+
+          .about-text p {
+            line-height: 27px;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -855,6 +879,14 @@ and (orientation: portrait) {
     margin-left: -5%;
     top: 200px;
   }
+
+          .about img {
+            margin-top: 10%;
+          }
+
+          .about-text p {
+            line-height: 27px;
+          }
 
   .footer {
     height: 200px;
