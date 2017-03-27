@@ -380,9 +380,39 @@ p {
           margin: 5% 0 1% 0;
         }
 
-         .reels-featured h3 {
-          /*margin: 3% 0 2% 0;*/
-         }
+        .reels-featured h3 {
+         /*margin: 3% 0 2% 0;*/
+        }
+
+        .video-below {
+          position: absolute;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          width: 48%;
+          margin-top: 3%;
+        }
+
+              .video-below-text {
+                font-size: 13px;
+                color: rgb(160, 65, 117);
+              }
+
+              .video-below-button {
+                height: 16px;
+                width: 16px;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 20px;
+                box-sizing: border-box;
+                border: 1px solid rgb(160, 65, 117);
+                color: rgb(160, 65, 117);
+                margin-left: 3%;
+                font-size: 12px;
+              }
 
         iframe {
           margin-right: 1%;
