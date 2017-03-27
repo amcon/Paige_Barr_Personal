@@ -807,11 +807,10 @@ and (orientation: portrait) {
           audio {
             height: 50%;
             font-size: 20px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 20%;
+          }
+
+          audio controls {
+            margin-top: 30%;
           }
 
   .footer {
@@ -929,11 +928,10 @@ and (orientation: portrait) {
           audio {
             height: 50%;
             font-size: 20px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 20%;
+          }
+
+          audio controls {
+            margin-top: 30%;
           }
 
   .footer {
@@ -1051,11 +1049,10 @@ and (orientation: portrait) {
           audio {
             height: 50%;
             font-size: 20px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 20%;
+          }
+
+          audio controls {
+            margin-top: 30%;
           }
 
   .footer {
@@ -1173,11 +1170,10 @@ and (orientation: portrait) {
           audio {
             height: 50%;
             font-size: 20px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            padding-top: 20%;
+          }
+
+          audio controls {
+            margin-top: 30%;
           }
 
   .footer {
