@@ -764,6 +764,10 @@ and (orientation: portrait) {
             line-height: 27px;
           }
 
+          .news-below {
+            opacity: 0;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -836,6 +840,10 @@ and (orientation: portrait) {
             line-height: 27px;
           }
 
+          .news-below {
+            opacity: 0;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -908,6 +916,10 @@ and (orientation: portrait) {
             line-height: 27px;
           }
 
+          .news-below {
+            opacity: 0;
+          }
+
   .footer {
     height: 200px;
     width: 90%;
@@ -978,6 +990,10 @@ and (orientation: portrait) {
 
           .about-text p {
             line-height: 27px;
+          }
+
+          .news-below {
+            opacity: 0;
           }
 
   .footer {
