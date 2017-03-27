@@ -326,8 +326,6 @@ p {
   height: 1200px;
   position: absolute;
   top: 200px;
-  /*background-color: #FAFAFA;*/
-  overflow: scroll;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -338,7 +336,7 @@ p {
 }
 
         .headshots_and_photos h1 {
-          margin: 5% 0 0 0;
+          margin: 2% 0 0 0;
         }
 
         .headshots_and_photos p {
