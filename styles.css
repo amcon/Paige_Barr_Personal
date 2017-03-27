@@ -720,6 +720,7 @@ and (orientation: portrait) {
   .header {
     height: 200px;
     width: 100%;
+    background-color: red;
   }
 
   .main-container {
@@ -748,6 +749,7 @@ and (orientation: portrait) {
   .header {
     height: 200px;
     width: 100%;
+    background-color: red;
   }
 
   .main-container {
@@ -776,6 +778,7 @@ and (orientation: portrait) {
   .header {
     height: 200px;
     width: 100%;
+    background-color: red;
   }
 
   .main-container {
@@ -806,6 +809,7 @@ and (orientation: portrait) {
   .header {
     height: 200px;
     width: 100%;
+    background-color: red;
   }
 
   .main-container {
