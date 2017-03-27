@@ -336,12 +336,12 @@ p {
 }
 
         .headshots_and_photos h1 {
-          margin: 2% 0 0 0;
+          margin: 2% 0 2% 0;
         }
 
         .picture-box {
           height: 1100px;
-          width: 100%;
+          width: 80%;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
