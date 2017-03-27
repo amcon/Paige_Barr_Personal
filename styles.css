@@ -381,7 +381,11 @@ p {
         }
 
         .reels-featured h3 {
-         /*margin: 3% 0 2% 0;*/
+         margin: 0 0 2% 0;
+        }
+
+        .reels-featured iframe {
+          margin-bottom: 2%;
         }
 
         .video-below {
