@@ -715,8 +715,8 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     background-color: red;
   }
 
@@ -725,15 +725,15 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 1400px;
   }
 
@@ -753,8 +753,8 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     background-color: red;
   }
 
@@ -763,15 +763,15 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 1400px;
   }
 
@@ -791,8 +791,8 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     background-color: red;
   }
 
@@ -801,15 +801,15 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 1400px;
   }
 
@@ -829,8 +829,8 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     background-color: red;
   }
 
@@ -839,15 +839,15 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 120%;
-    margin-left: -10%;
+    width: 110%;
+    margin-left: -5%;
     top: 1400px;
   }
 
