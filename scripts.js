@@ -413,6 +413,9 @@ $(function(){
     $('html, body').animate({ scrollTop: 1000 }, "slow");
   });
 
+  $('.video-below-button').click(function() {
+    $('html, body').animate({ scrollTop: 1000 }, "slow");
+  });
 
   // very simply, on click on these icons, the page opens a new tab to the
   // corresponding social media page or user's default email.
