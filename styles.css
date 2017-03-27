@@ -861,6 +861,10 @@ and (orientation: landscape) {
             width: 40px;
           }
 
+          audio {
+            height: 120%;
+          }
+
 }
 
 @media only screen
@@ -1014,6 +1018,10 @@ and (orientation: landscape) {
           .footer img {
             height: 40px;
             width: 40px;
+          }
+
+          audio {
+            height: 120%;
           }
 
 }
@@ -1171,6 +1179,10 @@ and (orientation: landscape) {
             width: 40px;
           }
 
+          audio {
+            height: 120%;
+          }
+
 }
 
 @media only screen
@@ -1324,6 +1336,10 @@ and (orientation: landscape) {
           .footer img {
             height: 40px;
             width: 40px;
+          }
+
+          audio {
+            height: 120%;
           }
 
 }
