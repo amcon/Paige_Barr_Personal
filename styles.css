@@ -146,21 +146,23 @@ p {
               }
 
               #news-below-text {
-                font-size: 12px;
+                font-size: 13px;
+                color: rgb(160, 65, 117);
               }
 
               #news-below {
-                height: 12px;
-                width: 12px;
+                height: 16px;
+                width: 16px;
                 border-radius: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 line-height: 20px;
                 box-sizing: border-box;
-                border: 1px solid black;
+                border: 1px solid rgb(160, 65, 117);
+                color: rgb(160, 65, 117);
                 margin-left: 3%;
-                font-size: 10px;
+                font-size: 12px;
               }
 
                       #news-below:hover {
