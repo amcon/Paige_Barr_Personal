@@ -806,11 +806,8 @@ and (orientation: portrait) {
 
           audio {
             height: 50%;
+            width: 20%;
             font-size: 20px;
-          }
-
-          audio controls {
-            margin-top: 30%;
           }
 
   .footer {
@@ -927,11 +924,8 @@ and (orientation: portrait) {
 
           audio {
             height: 50%;
+            width: 20%;
             font-size: 20px;
-          }
-
-          audio controls {
-            margin-top: 30%;
           }
 
   .footer {
@@ -1048,11 +1042,8 @@ and (orientation: portrait) {
 
           audio {
             height: 50%;
+            width: 20%;
             font-size: 20px;
-          }
-
-          audio controls {
-            margin-top: 30%;
           }
 
   .footer {
@@ -1169,11 +1160,8 @@ and (orientation: portrait) {
 
           audio {
             height: 50%;
+            width: 20%;
             font-size: 20px;
-          }
-
-          audio controls {
-            margin-top: 30%;
           }
 
   .footer {
