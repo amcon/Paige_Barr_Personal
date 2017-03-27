@@ -723,6 +723,10 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .header nav {
+            height: 115px;
+          }
+
   .main-container {
     width: 90%;
     margin-left: -5%;
@@ -760,6 +764,10 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .header nav {
+            height: 115px;
+          }
+
   .main-container {
     width: 90%;
     margin-left: -5%;
@@ -797,6 +805,10 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .header nav {
+            height: 115px;
+          }
+
   .main-container {
     width: 90%;
     margin-left: -5%;
@@ -832,6 +844,10 @@ and (orientation: portrait) {
 
           .title {
             height: 200px;
+          }
+
+          .header nav {
+            height: 115px;
           }
 
   .main-container {
