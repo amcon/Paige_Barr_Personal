@@ -785,6 +785,10 @@ and (orientation: portrait) {
             opacity: 0;
           }
 
+          .voiceover {
+            height: 800px;
+          }
+
           .voiceover iframe {
             height: 30%;
           }
@@ -898,6 +902,10 @@ and (orientation: portrait) {
             opacity: 0;
           }
 
+          .voiceover {
+            height: 800px;
+          }
+
           .voiceover iframe {
             height: 30%;
           }
@@ -1011,6 +1019,10 @@ and (orientation: portrait) {
             opacity: 0;
           }
 
+          .voiceover {
+            height: 800px;
+          }
+
           .voiceover iframe {
             height: 30%;
           }
@@ -1122,6 +1134,10 @@ and (orientation: portrait) {
 
           .video-below {
             opacity: 0;
+          }
+
+          .voiceover {
+            height: 800px;
           }
 
           .voiceover iframe {
