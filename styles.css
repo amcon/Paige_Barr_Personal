@@ -839,6 +839,10 @@ and (orientation: landscape) {
             font-size: 15px;
           }
 
+          .news h1 {
+            margin-top: 16%;
+          }
+
           .headshots_and_photos h1 {
             font-size: 40px;
             margin: 7% 0 5% 0;
@@ -988,6 +992,10 @@ and (orientation: landscape) {
 
           .about-text p {
             font-size: 15px;
+          }
+
+          .news h1 {
+            margin-top: 16%;
           }
 
           .headshots_and_photos h1 {
@@ -1141,6 +1149,10 @@ and (orientation: landscape) {
             font-size: 15px;
           }
 
+          .news h1 {
+            margin-top: 16%;
+          }
+
           .headshots_and_photos h1 {
             font-size: 40px;
             margin: 7% 0 5% 0;
@@ -1290,6 +1302,10 @@ and (orientation: landscape) {
 
           .about-text p {
             font-size: 15px;
+          }
+
+          .news h1 {
+            margin-top: 16%;
           }
 
           .headshots_and_photos h1 {
