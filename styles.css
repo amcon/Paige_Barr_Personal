@@ -136,6 +136,13 @@ p {
           border-bottom: 1px solid grey;
         }
 
+              .news-below {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+              }
+
               .about-container h1 {
                 margin-top: 15%;
                 font-size: 35px;
