@@ -138,7 +138,7 @@ p {
 
               .about-container h1 {
                 margin-top: 15%;
-                font-size: 30px;
+                font-size: 40px;
               }
 
               .about-text {
@@ -166,6 +166,11 @@ p {
 
                 .news h1 {
                   margin: 7.5% 0 0 0;
+                  font-size: 40px;
+                }
+
+                .news p {
+                  font-size: 20px;
                 }
 
                 .news-container {
