@@ -140,14 +140,19 @@ p {
                 position: absolute;
                 display: flex;
                 flex-direction: row;
-                width: 30%;
+                justify-content: flex-end;
+                align-items: center;
+                width: 53%;
+              }
+
+              .news-below p {
+                font-size: 15px;
               }
 
               #news-below {
                 height: 20px;
                 width: 20px;
                 border-radius: 100%;
-                display: block;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -156,6 +161,7 @@ p {
                 border: 1px solid black;
                 margin-left: 3%;
                 font-size: 15px;
+                padding-left: 1px;
               }
 
                       #news-below:hover {
