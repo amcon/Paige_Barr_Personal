@@ -733,6 +733,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about-container {
+            height: 850px;
+          }
+
+          .about-text {
+            margin-top: 4%;
+          }
+
           .about img {
             margin-top: 10%;
           }
@@ -782,6 +790,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about-container {
+            height: 850px;
+          }
+
+          .about-text {
+            margin-top: 4%;
+          }
+
           .about img {
             margin-top: 10%;
           }
@@ -831,6 +847,14 @@ and (orientation: portrait) {
     top: 200px;
   }
 
+          .about-container {
+            height: 850px;
+          }
+
+          .about-text {
+            margin-top: 4%;
+          }
+
           .about img {
             margin-top: 10%;
           }
@@ -879,6 +903,14 @@ and (orientation: portrait) {
     margin-left: -5%;
     top: 200px;
   }
+
+          .about-container {
+            height: 850px;
+          }
+
+          .about-text {
+            margin-top: 4%;
+          }
 
           .about img {
             margin-top: 10%;
