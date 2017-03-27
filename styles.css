@@ -687,7 +687,6 @@ p {
           cursor: pointer;
         }
 
-/*--------------end of computer view----------------*/
 
 
 
@@ -708,9 +707,6 @@ p {
 
 
 
-
-
-/*----------phones------------*/
 
 @media only screen
 and (min-device-width : 414px)
@@ -798,8 +794,6 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
 }
-
-/*------------iPad------------*/
 
 @media only screen
 and (min-device-width : 768px)
