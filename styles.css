@@ -721,11 +721,13 @@ and (orientation: portrait) {
 
   .main-container {
     width: 100%;
+    top: 200px;
   }
 
   .footer {
     height: 200px;
     width: 100%;
+    top: 1400px;
   }
 
 }
@@ -750,11 +752,13 @@ and (orientation: portrait) {
 
   .main-container {
     width: 100%;
+    top: 200px;
   }
 
   .footer {
     height: 200px;
     width: 100%;
+    top: 1400px;
   }
 
 }
@@ -779,11 +783,13 @@ and (orientation: portrait) {
 
   .main-container {
     width: 100%;
+    top: 200px;
   }
 
   .footer {
     height: 200px;
     width: 100%;
+    top: 1400px;
   }
 
 }
@@ -808,11 +814,13 @@ and (orientation: portrait) {
 
   .main-container {
     width: 100%;
+    top: 200px;
   }
 
   .footer {
     height: 200px;
     width: 100%;
+    top: 1400px;
   }
 
 }
