@@ -723,8 +723,23 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .title h1 {
+            font-size: 60px;
+            margin-bottom: 2.5%
+          }
+
+          .title p {
+            font-size: 25px;
+          }
+
           .header nav {
-            height: 115px;
+            height: 150px;
+            width: 75%;
+            left: 28.5%;
+          }
+
+          .header nav p {
+            font-size: 22px;
           }
 
   .main-container {
@@ -780,8 +795,23 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .title h1 {
+            font-size: 60px;
+            margin-bottom: 2.5%
+          }
+
+          .title p {
+            font-size: 25px;
+          }
+
           .header nav {
-            height: 115px;
+            height: 150px;
+            width: 75%;
+            left: 28.5%;
+          }
+
+          .header nav p {
+            font-size: 22px;
           }
 
   .main-container {
@@ -837,8 +867,23 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .title h1 {
+            font-size: 60px;
+            margin-bottom: 2.5%
+          }
+
+          .title p {
+            font-size: 25px;
+          }
+
           .header nav {
-            height: 115px;
+            height: 150px;
+            width: 75%;
+            left: 28.5%;
+          }
+
+          .header nav p {
+            font-size: 22px;
           }
 
   .main-container {
@@ -894,8 +939,23 @@ and (orientation: portrait) {
             height: 200px;
           }
 
+          .title h1 {
+            font-size: 60px;
+            margin-bottom: 2.5%
+          }
+
+          .title p {
+            font-size: 25px;
+          }
+
           .header nav {
-            height: 115px;
+            height: 150px;
+            width: 75%;
+            left: 28.5%;
+          }
+
+          .header nav p {
+            font-size: 22px;
           }
 
   .main-container {
