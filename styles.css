@@ -139,7 +139,7 @@ p {
               .news-below {
                 position: absolute;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 width: 30%;
               }
 
