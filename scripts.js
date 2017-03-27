@@ -104,8 +104,8 @@ $(function(){
       $(".voiceover").children('iframe').remove();
       $(".video").children('iframe').remove();
       $(".voiceover").prepend(
-        '<iframe id="space" width="42.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>',
-        '<iframe width="42.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>'
+        '<iframe id="space" width="42.5%" height="40%" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>',
+        '<iframe width="42.5%" height="40%" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>'
         );
       $(".main-container").css('opacity', '0');
       $(".reels-voiceover").css({
@@ -325,8 +325,8 @@ $(function(){
                       "z-index": '1'
                     });
                     $(".voiceover").prepend(
-                      '<iframe id="space" width="42.5%" height="315" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>',
-                      '<iframe width="42.5%" height="315" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>'
+                      '<iframe id="space" width="42.5%" height="40%" src="https://www.youtube.com/embed/lJho3zjp_lk" frameborder="0" allowfullscreen></iframe>',
+                      '<iframe width="42.5%" height="40%" src="https://www.youtube.com/embed/K5IYJGlXUpo" frameborder="0" allowfullscreen></iframe>'
                       );
                   };
                   setTimeout(voiceModal, 800);
