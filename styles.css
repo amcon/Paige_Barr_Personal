@@ -715,7 +715,7 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
   }
 
@@ -724,14 +724,14 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 1400px;
   }
@@ -752,7 +752,7 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
   }
 
@@ -761,14 +761,14 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 1400px;
   }
@@ -789,7 +789,7 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
   }
 
@@ -798,14 +798,14 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 1400px;
   }
@@ -826,7 +826,7 @@ and (orientation: portrait) {
 
   .header {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
   }
 
@@ -835,14 +835,14 @@ and (orientation: portrait) {
           }
 
   .main-container {
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 200px;
   }
 
   .footer {
     height: 200px;
-    width: 110%;
+    width: 105%;
     margin-left: -5%;
     top: 1400px;
   }
