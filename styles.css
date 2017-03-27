@@ -390,7 +390,7 @@ p {
           flex-direction: row;
           justify-content: flex-end;
           align-items: center;
-          width: 48%;
+          width: 88%;
           margin-top: 3%;
         }
 
@@ -412,6 +412,12 @@ p {
                 color: rgb(160, 65, 117);
                 margin-left: 3%;
                 font-size: 12px;
+              }
+
+              .video-below-button:hover {
+                cursor: pointer;
+                background-color: rgb(160, 65, 117);
+                color: white;
               }
 
         iframe {
