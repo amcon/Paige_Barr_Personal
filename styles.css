@@ -531,7 +531,7 @@ p {
 
         #reel-title {
           margin-bottom: 3%;
-          margin-top: -1%;
+          margin: 0 0 2% 0;
         }
 
         .reels-legit h1 {
