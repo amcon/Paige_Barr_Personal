@@ -720,6 +720,10 @@ and (orientation: portrait) {
     background-color: red;
   }
 
+          .title {
+            height: 200px;
+          }
+
   .main-container {
     width: 120%;
     margin-left: -10%;
@@ -754,6 +758,10 @@ and (orientation: portrait) {
     background-color: red;
   }
 
+          .title {
+            height: 200px;
+          }
+
   .main-container {
     width: 120%;
     margin-left: -10%;
@@ -788,6 +796,10 @@ and (orientation: portrait) {
     background-color: red;
   }
 
+          .title {
+            height: 200px;
+          }
+
   .main-container {
     width: 120%;
     margin-left: -10%;
@@ -821,6 +833,10 @@ and (orientation: portrait) {
     margin-left: -10%;
     background-color: red;
   }
+
+          .title {
+            height: 200px;
+          }
 
   .main-container {
     width: 120%;
