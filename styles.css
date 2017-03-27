@@ -807,6 +807,10 @@ and (orientation: portrait) {
           audio {
             height: 100%;
             font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
           }
 
   .footer {
@@ -924,6 +928,10 @@ and (orientation: portrait) {
           audio {
             height: 100%;
             font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
           }
 
   .footer {
@@ -1041,6 +1049,10 @@ and (orientation: portrait) {
           audio {
             height: 100%;
             font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
           }
 
   .footer {
@@ -1158,6 +1170,10 @@ and (orientation: portrait) {
           audio {
             height: 100%;
             font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
           }
 
   .footer {
