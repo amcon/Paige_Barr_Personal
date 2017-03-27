@@ -146,12 +146,12 @@ p {
               }
 
               #news-below-text {
-                font-size: 10px;
+                font-size: 12px;
               }
 
               #news-below {
-                height: 10px;
-                width: 10px;
+                height: 12px;
+                width: 12px;
                 border-radius: 100%;
                 display: flex;
                 justify-content: center;
@@ -160,7 +160,7 @@ p {
                 box-sizing: border-box;
                 border: 1px solid black;
                 margin-left: 3%;
-                font-size: 8px;
+                font-size: 10px;
               }
 
                       #news-below:hover {
