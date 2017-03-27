@@ -141,8 +141,12 @@ p {
               }
 
               .about-text {
-                height: 500px;
+                height: 700px;
                 width: 50%;
+              }
+
+              .about-text p {
+                font-size: 35px;
               }
 
               .about img {
