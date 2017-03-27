@@ -818,6 +818,12 @@ and (orientation: portrait) {
     top: 1400px;
   }
 
+          .footer img {
+            height: 60px;
+            width: 60px;
+            margin: 0 5%;
+          }
+
 }
 
 @media only screen
@@ -937,6 +943,12 @@ and (orientation: portrait) {
     top: 1400px;
   }
 
+          .footer img {
+            height: 60px;
+            width: 60px;
+            margin: 0 5%;
+          }
+
 }
 
 @media only screen
@@ -1056,6 +1068,12 @@ and (orientation: portrait) {
     top: 1400px;
   }
 
+          .footer img {
+            height: 60px;
+            width: 60px;
+            margin: 0 5%;
+          }
+
 }
 
 @media only screen
@@ -1174,6 +1192,12 @@ and (orientation: portrait) {
     margin-left: -5%;
     top: 1400px;
   }
+
+          .footer img {
+            height: 60px;
+            width: 60px;
+            margin: 0 5%;
+          }
 
 }
 
