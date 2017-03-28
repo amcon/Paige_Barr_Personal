@@ -749,11 +749,11 @@ and (orientation: portrait) {
           }
 
           .about-text {
-            margin-top: 4%;
+            margin-top: 1%;
           }
 
           .about img {
-            margin-top: 14%;
+            margin-top: 7%;
           }
 
           .about-text p {
@@ -828,7 +828,7 @@ and (max-device-width : 736px)
 and (orientation: landscape) {
 
           .about img {
-            margin-top: 8%;
+            margin-top: 6%;
           }
 
           .about-text p {
@@ -917,11 +917,11 @@ and (orientation: portrait) {
           }
 
           .about-text {
-            margin-top: 4%;
+            margin-top: 1%;
           }
 
           .about img {
-            margin-top: 14%;
+            margin-top: 7%;
           }
 
           .about-text p {
@@ -996,7 +996,7 @@ and (max-device-width : 667px)
 and (orientation: landscape) {
 
           .about img {
-            margin-top: 8%;
+            margin-top: 6%;
           }
 
           .about-text p {
@@ -1085,11 +1085,11 @@ and (orientation: portrait) {
           }
 
           .about-text {
-            margin-top: 4%;
+            margin-top: 1%;
           }
 
           .about img {
-            margin-top: 14%;
+            margin-top: 7%;
           }
 
           .about-text p {
@@ -1164,7 +1164,7 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
           .about img {
-            margin-top: 8%;
+            margin-top: 6%;
           }
 
           .about-text p {
@@ -1253,11 +1253,11 @@ and (orientation: portrait) {
           }
 
           .about-text {
-            margin-top: 4%;
+            margin-top: 1%;
           }
 
           .about img {
-            margin-top: 14%;
+            margin-top: 7%;
           }
 
           .about-text p {
@@ -1332,7 +1332,7 @@ and (max-device-width : 1025px)
 and (orientation: landscape) {
 
           .about img {
-            margin-top: 8%;
+            margin-top: 6%;
           }
 
           .about-text p {
