@@ -348,7 +348,7 @@ p {
         }
 
         .picture-box img {
-          height: 24%;
+          width: 30%;
         }
 
 
@@ -1379,3 +1379,5 @@ and (orientation: landscape) {
           }
 
 }
+
+
