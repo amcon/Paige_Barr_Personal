@@ -12,7 +12,7 @@ $(function(){
 
 
   // using pushState to set the initial state of the application
-  history.pushState({doc: 'title'}, null, "/Paige_Barr_Personal/");
+  history.pushState({doc: 'title'}, null, "/");
 
   // titleDisappear1 & 2 are the functions used to animate the title
   // screen. It waits a second and a half to activate the fade-out, and
@@ -24,7 +24,7 @@ $(function(){
   };
   setTimeout(titleDisappear, 1500);
   function titleDisappear2() {
-    history.pushState({doc: 'home'}, null, "/Paige_Barr_Personal/");
+    history.pushState({doc: 'home'}, null, "/");
     $(".title-screen").css('z-index', '0');
   };
   setTimeout(titleDisappear2, 3000);
@@ -160,7 +160,7 @@ $(function(){
     $(".main-container").css('opacity', '0');
 
     function aboutModal() {
-      history.pushState({doc: 'about'}, null, "/Paige_Barr_Personal/#/about");
+      history.pushState({doc: 'about'}, null, "/#/about");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
       $(".commercials").children('iframe').remove();
@@ -180,7 +180,7 @@ $(function(){
     $(".main-container").css('opacity', '0');
 
     function resumeModal() {
-       history.pushState({doc: 'resume'}, null, "/Paige_Barr_Personal/#/resume");
+       history.pushState({doc: 'resume'}, null, "/#/resume");
        $(".main-container").css('z-index', '0');
        $(".writing").children('iframe').remove();
        $(".commercials").children('iframe').remove();
@@ -201,7 +201,7 @@ $(function(){
     $(".main-container").css('opacity', '0');
 
     function headshotModal() {
-      history.pushState({doc: 'headshots'}, null, "/Paige_Barr_Personal/#/headshots");
+      history.pushState({doc: 'headshots'}, null, "/#/headshots");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
       $(".commercials").children('iframe').remove();
@@ -221,7 +221,7 @@ $(function(){
     $(".main-container").css('opacity', '0');
 
     function reelsModal() {
-      history.pushState({doc: 'reels'}, null, "/Paige_Barr_Personal/#/reels");
+      history.pushState({doc: 'reels'}, null, "/#/reels");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
       $(".commercials").children('iframe').remove();
@@ -242,7 +242,7 @@ $(function(){
                   $("html, body").animate({ scrollTop: 0 }, "slow");
 
                   function commercialsModal() {
-                    history.pushState({doc: 'reels-commercials'}, null, "/Paige_Barr_Personal/#/reels/commercials");
+                    history.pushState({doc: 'reels-commercials'}, null, "/#/reels/commercials");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
                     $(".legit").children('iframe').remove();
@@ -268,7 +268,7 @@ $(function(){
                   $("html, body").animate({ scrollTop: 0 }, "slow");
 
                   function featuredModal() {
-                    history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
+                    history.pushState({doc: 'reels-featured'}, null, "/#/reels/featured");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
                     $(".commercials").children('iframe').remove();
@@ -289,7 +289,7 @@ $(function(){
                   $("html, body").animate({ scrollTop: 0 }, "slow");
 
                   function legitModal() {
-                    history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
+                    history.pushState({doc: 'reels-legit'}, null, "/#/reels/legit");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
                     $(".commercials").children('iframe').remove();
@@ -315,7 +315,7 @@ $(function(){
                   $("html, body").animate({ scrollTop: 0 }, "slow");
 
                   function voiceModal() {
-                    history.pushState({doc: 'reels-voiceover'}, null, "/Paige_Barr_Personal/#/reels/voiceover");
+                    history.pushState({doc: 'reels-voiceover'}, null, "/#/reels/voiceover");
                     $(".main-container").css('z-index', '0');
                     $(".writing").children('iframe').remove();
                     $(".commercials").children('iframe').remove();
@@ -340,7 +340,7 @@ $(function(){
                   $("html, body").animate({ scrollTop: 0 }, "slow");
 
                   function writingModal() {
-                    history.pushState({doc: 'reels-writing'}, null, "/Paige_Barr_Personal/#/reels/writing");
+                    history.pushState({doc: 'reels-writing'}, null, "/#/reels/writing");
                     $(".main-container").css('z-index', '0');
                     $(".voiceover").children('iframe').remove();
                     $(".commercials").children('iframe').remove();
@@ -372,7 +372,7 @@ $(function(){
     $("html, body").animate({ scrollTop: 0 }, "slow");
 
     function reelsModal() {
-      history.pushState({doc: 'reels-featured'}, null, "/Paige_Barr_Personal/#/reels/featured");
+      history.pushState({doc: 'reels-featured'}, null, "/#/reels/featured");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
       $(".reels-featured").css({
@@ -396,7 +396,7 @@ $(function(){
         );
 
     function reelsModal() {
-      history.pushState({doc: 'reels-legit'}, null, "/Paige_Barr_Personal/#/reels/legit");
+      history.pushState({doc: 'reels-legit'}, null, "/#/reels/legit");
       $(".main-container").css('z-index', '0');
       $(".writing").children('iframe').remove();
       $(".reels-legit").css({
