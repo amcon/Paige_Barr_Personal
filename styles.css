@@ -1528,6 +1528,7 @@ and (min-device-width : 2500px) {
   .about img {
     width: 13%;
     margin-left: 5%;
+    margin-top: 8%;
   }
 
   .about-text {
