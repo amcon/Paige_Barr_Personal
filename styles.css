@@ -1434,6 +1434,10 @@ and (max-device-width : 1800px) {
     width: 28%;
   }
 
+  .about-text{
+    width: 65%;
+  }
+
   .picture-box img {
     width: 24%;
   }
