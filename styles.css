@@ -227,8 +227,6 @@ p {
   height: 1200px;
   position: absolute;
   top: 100px;
-  /*background-color: #FAFAFA;*/
-  overflow: scroll;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
