@@ -1390,6 +1390,18 @@ and (max-device-width : 1600px) {
     width: 26%;
   }
 
+  .header {
+    width: 80%;
+  }
+
+  .footer {
+    width: 80%;
+  }
+
+  .main-container {
+    width: 80%;
+  }
+
 }
 
 @media only screen
@@ -1401,7 +1413,19 @@ and (max-device-width : 1800px) {
   }
 
   .picture-box img {
-    width: 28%;
+    width: 24%;
+  }
+
+  .header {
+    width: 80%;
+  }
+
+  .footer {
+    width: 80%;
+  }
+
+  .main-container {
+    width: 80%;
   }
 
 }
@@ -1412,6 +1436,23 @@ and (max-device-width : 2500px) {
 
   .main-container {
     width: 60%;
+  }
+
+  .header {
+    width: 60%;
+  }
+
+  .footer {
+    width: 60%;
+  }
+
+  .about img {
+    width: 32%;
+    margin-left: 5%;
+  }
+
+  .picture-box img {
+    width: 23%;
   }
 
 }
