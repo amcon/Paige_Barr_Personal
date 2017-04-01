@@ -1392,4 +1392,26 @@ and (max-device-width : 1600px) {
 
 }
 
+@media only screen
+and (min-device-width : 1600px)
+and (max-device-width : 1800px) {
 
+  .about img {
+    width: 28%;
+  }
+
+  .picture-box img {
+    width: 28%;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 2000px)
+and (max-device-width : 2500px) {
+
+  .main-container {
+    width: 60%;
+  }
+
+}
