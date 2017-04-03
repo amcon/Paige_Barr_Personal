@@ -1544,7 +1544,17 @@ and (min-device-width : 2500px) {
   }
 
   .news h1 {
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 3300px) {
+
+
+  .news h1 {
+    margin: 6% 0 2% 0;
   }
 
 }
