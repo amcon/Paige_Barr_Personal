@@ -6,7 +6,7 @@ body {
 h1{
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: bold;
-  color: rgb(190, 111, 219);
+  color: rgb(160, 55, 178);
 }
 
 h2, h3 {
@@ -40,7 +40,7 @@ p {
           color: white;
           font-size: 100px;
           font-weight: lighter;
-          text-shadow: 1.5px 1.5px rgb(190, 111, 219);
+          text-shadow: 1.5px 1.5px rgb(160, 55, 178);
         }
 
 
@@ -101,7 +101,7 @@ p {
 
         .header nav p:hover {
           cursor: pointer;
-          color: rgb(190, 111, 219);
+          color: rgb(160, 55, 178);
         }
 
 
@@ -144,7 +144,7 @@ p {
 
               #news-below-text {
                 font-size: 13px;
-                color: rgb(190, 111, 219);
+                color: rgb(160, 55, 178);
               }
 
               #news-below {
@@ -156,14 +156,14 @@ p {
                 align-items: center;
                 line-height: 20px;
                 box-sizing: border-box;
-                border: 1px solid rgb(190, 111, 219);
-                color: rgb(190, 111, 219);
+                border: 1px solid rgb(160, 55, 178);
+                color: rgb(160, 55, 178);
                 margin-left: 3%;
                 font-size: 12px;
               }
 
                       #news-below:hover {
-                        background-color: rgb(190, 111, 219);
+                        background-color: rgb(160, 55, 178);
                         color: white;
                         border: none;
                         cursor: pointer;
@@ -214,7 +214,7 @@ p {
                 }
 
                 .news-reel:hover, .news-legit:hover {
-                  color: rgb(190, 111, 219);
+                  color: rgb(160, 55, 178);
                   cursor: pointer;
                 }
 
@@ -395,7 +395,7 @@ p {
 
               .video-below-text {
                 font-size: 13px;
-                color: rgb(190, 111, 219);
+                color: rgb(160, 55, 178);
               }
 
               .video-below-button {
@@ -407,15 +407,15 @@ p {
                 align-items: center;
                 line-height: 20px;
                 box-sizing: border-box;
-                border: 1px solid rgb(190, 111, 219);
-                color: rgb(190, 111, 219);
+                border: 1px solid rgb(160, 55, 178);
+                color: rgb(160, 55, 178);
                 margin-left: 1%;
                 font-size: 12px;
               }
 
               .video-below-button:hover {
                 cursor: pointer;
-                background-color: rgb(190, 111, 219);
+                background-color: rgb(160, 55, 178);
                 color: white;
               }
 
@@ -445,7 +445,7 @@ p {
         }
 
         .reel-boxes div:hover {
-          background-color: rgb(190, 111, 219);
+          background-color: rgb(160, 55, 178);
           color: white;
           border: none;
           cursor: pointer;
