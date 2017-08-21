@@ -84,7 +84,7 @@
   padding: 0 75px 25px 75px;
 }
 
-.resume-full p, .resume-box p {
+.resume-full p {
   font-size: 13px;
 }
 
@@ -137,7 +137,7 @@
   color: white;
 }
 
-.reels h3 {
+.sub-header {
   margin-top: 0;
   color: rgb(160, 55, 178);
 }

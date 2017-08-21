@@ -58,7 +58,7 @@ nav a {
   padding: 25px 0;
 }
 
-.main h1 {
+.main h1, .news h1 {
   font-size: 40px;
 }
 
