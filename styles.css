@@ -84,7 +84,7 @@
   padding: 0 75px 25px 75px;
 }
 
-.resume-full p {
+.resume-full p, .resume-box p {
   font-size: 13px;
 }
 
