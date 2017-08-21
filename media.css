@@ -75,12 +75,12 @@ nav a {
 }
 
 .photo-container {
-  height: 2600px;
+  height: inherit;
 }
 
 .photo-container img {
-  height: 16%;
-  width: 49%;
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .reel-button {
@@ -94,6 +94,12 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.reels iframe {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 35px
 }
 
 #large-video {
@@ -190,12 +196,12 @@ nav a {
 }
 
 .photo-container {
-  height: 2600px;
+  height: inherit;
 }
 
 .photo-container img {
-  height: 16%;
-  width: 49%;
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .reel-button {
@@ -209,6 +215,12 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.reels iframe {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 35px
 }
 
 #large-video {
@@ -305,12 +317,12 @@ nav a {
 }
 
 .photo-container {
-  height: 2600px;
+  height: inherit;
 }
 
 .photo-container img {
-  height: 16%;
-  width: 49%;
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .reel-button {
@@ -324,6 +336,12 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.reels iframe {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 35px
 }
 
 #large-video {
@@ -420,12 +438,12 @@ nav a {
 }
 
 .photo-container {
-  height: 2600px;
+  height: inherit;
 }
 
 .photo-container img {
-  height: 16%;
-  width: 49%;
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .reel-button {
@@ -439,6 +457,12 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.reels iframe {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 35px
 }
 
 #large-video {
