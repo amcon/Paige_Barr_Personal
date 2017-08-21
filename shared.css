@@ -1,0 +1,113 @@
+body {
+  margin: 0 10px;
+  background-color: rgb(245, 245, 245);
+  min-width: 920px;
+}
+
+h1, p, a {
+  margin: 0;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  color: rgb(160, 55, 178);
+}
+
+h3, p, a{
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(160, 55, 178);
+}
+
+.width {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+nav a {
+  margin: 0 15px;
+}
+
+.main {
+  box-sizing: border-box;
+  padding: 25px 0;
+}
+
+.main h1 {
+  font-size: 40px;
+}
+
+footer {
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+footer img {
+  height: 35px;
+  margin: 0 25px;
+}
+
+footer img:hover {
+  cursor: pointer;
+}
+
+#scroll-down {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+#scroll-down p {
+  margin-left: 15px;
+  color: rgb(160, 55, 178);
+  font-size: 13px;
+}
+
+#scroll-down p:hover, #scroll-down-button:hover {
+  cursor: pointer;
+}
+
+#scroll-down-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(160, 55, 178);
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  color: rgb(160, 55, 178);
+  padding-bottom: 2px;
+}
