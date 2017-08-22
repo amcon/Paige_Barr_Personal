@@ -132,6 +132,15 @@ nav a {
   height: 800px;
 }
 
+.audio p {
+  font-size: 22px;
+  width: 50%;
+}
+
+audio {
+  height: 30px;
+}
+
 footer img {
   height: 50px;
 }
@@ -279,6 +288,15 @@ nav a {
   height: 800px;
 }
 
+.audio p {
+  font-size: 22px;
+  width: 50%;
+}
+
+audio {
+  height: 30px;
+}
+
 footer img {
   height: 50px;
 }
@@ -426,6 +444,15 @@ nav a {
   height: 800px;
 }
 
+.audio p {
+  font-size: 22px;
+  width: 50%;
+}
+
+audio {
+  height: 30px;
+}
+
 footer img {
   height: 50px;
 }
@@ -571,6 +598,15 @@ nav a {
 
 #large-video {
   height: 800px;
+}
+
+.audio p {
+  font-size: 22px;
+  width: 50%;
+}
+
+audio {
+  height: 30px;
 }
 
 footer img {
