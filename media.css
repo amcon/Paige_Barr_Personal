@@ -11,11 +11,11 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 header p {
-  font-size: 20px
+  font-size: 25px
 }
 
 nav {
@@ -27,7 +27,7 @@ nav {
 
 nav a {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .title-screen {
@@ -39,13 +39,21 @@ nav a {
   flex-direction: column-reverse;
 }
 
+#scroll-down p {
+  font-size: 15px;
+}
+
 .about-text {
   width: 100%;
   margin-bottom: 25px;
 }
 
+.about-text h1  {
+  font-size: 50px;
+}
+
 .about-text p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .about-container img {
@@ -132,11 +140,11 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 header p {
-  font-size: 20px
+  font-size: 25px
 }
 
 nav {
@@ -148,7 +156,7 @@ nav {
 
 nav a {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .title-screen {
@@ -160,13 +168,21 @@ nav a {
   flex-direction: column-reverse;
 }
 
+#scroll-down p {
+  font-size: 15px;
+}
+
 .about-text {
   width: 100%;
   margin-bottom: 25px;
 }
 
+.about-text h1  {
+  font-size: 50px;
+}
+
 .about-text p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .about-container img {
@@ -253,11 +269,11 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 header p {
-  font-size: 20px
+  font-size: 25px
 }
 
 nav {
@@ -269,7 +285,7 @@ nav {
 
 nav a {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .title-screen {
@@ -281,13 +297,21 @@ nav a {
   flex-direction: column-reverse;
 }
 
+#scroll-down p {
+  font-size: 15px;
+}
+
 .about-text {
   width: 100%;
   margin-bottom: 25px;
 }
 
+.about-text h1  {
+  font-size: 50px;
+}
+
 .about-text p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .about-container img {
@@ -374,11 +398,11 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 header p {
-  font-size: 20px
+  font-size: 25px
 }
 
 nav {
@@ -390,7 +414,7 @@ nav {
 
 nav a {
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .title-screen {
@@ -402,13 +426,21 @@ nav a {
   flex-direction: column-reverse;
 }
 
+#scroll-down p {
+  font-size: 15px;
+}
+
 .about-text {
   width: 100%;
   margin-bottom: 25px;
 }
 
+.about-text h1  {
+  font-size: 50px;
+}
+
 .about-text p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .about-container img {
