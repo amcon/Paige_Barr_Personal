@@ -15,7 +15,7 @@ header h1 {
 }
 
 header p {
-  font-size: 25px
+  font-size: 23px;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav a {
 }
 
 #scroll-down p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .about-text {
@@ -53,7 +53,8 @@ nav a {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .about-container img {
@@ -66,8 +67,13 @@ nav a {
   padding: 50px 0 75px 0;
 }
 
+.news h1 {
+  font-size: 50px;
+}
+
 .news a {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 10px 0;
 }
 
 .resume-full {
@@ -144,7 +150,7 @@ header h1 {
 }
 
 header p {
-  font-size: 25px
+  font-size: 23px;
 }
 
 nav {
@@ -169,7 +175,7 @@ nav a {
 }
 
 #scroll-down p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .about-text {
@@ -182,7 +188,8 @@ nav a {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .about-container img {
@@ -195,8 +202,13 @@ nav a {
   padding: 50px 0 75px 0;
 }
 
+.news h1 {
+  font-size: 50px;
+}
+
 .news a {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 10px 0;
 }
 
 .resume-full {
@@ -273,7 +285,7 @@ header h1 {
 }
 
 header p {
-  font-size: 25px
+  font-size: 23px;
 }
 
 nav {
@@ -298,7 +310,7 @@ nav a {
 }
 
 #scroll-down p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .about-text {
@@ -311,7 +323,8 @@ nav a {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .about-container img {
@@ -324,8 +337,13 @@ nav a {
   padding: 50px 0 75px 0;
 }
 
+.news h1 {
+  font-size: 50px;
+}
+
 .news a {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 10px 0;
 }
 
 .resume-full {
@@ -402,7 +420,7 @@ header h1 {
 }
 
 header p {
-  font-size: 25px
+  font-size: 23px;
 }
 
 nav {
@@ -427,7 +445,7 @@ nav a {
 }
 
 #scroll-down p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .about-text {
@@ -440,7 +458,8 @@ nav a {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .about-container img {
@@ -453,8 +472,13 @@ nav a {
   padding: 50px 0 75px 0;
 }
 
+.news h1 {
+  font-size: 50px;
+}
+
 .news a {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 10px 0;
 }
 
 .resume-full {
