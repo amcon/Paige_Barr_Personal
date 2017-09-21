@@ -17,6 +17,10 @@ $('#scroll-down').click(function() {
   $('html, body').animate({ scrollTop: 1000 }, "slow");
 });
 
+$('#writing').click(function() {
+  window.location.href = "writing.html";
+});
+
 // very simply, on click on these icons, the page opens a new tab to the
 // corresponding social media page or user's default email.
 $("#email").click(function(){

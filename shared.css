@@ -1,7 +1,7 @@
 body {
   margin: 0 10px;
-  background-color: rgb(245, 245, 245);
-  min-width: 920px;
+  background-color: white;
+  min-width: 1100px;
 }
 
 h1, p, a {
@@ -16,10 +16,12 @@ h1 {
   font-family: 'Shadows Into Light Two', cursive;
   font-weight: bold;
   color: rgb(160, 55, 178);
+  letter-spacing: 3px;
 }
 
 h3, p, a{
   font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
 }
 
 a {
@@ -32,7 +34,7 @@ a:hover {
 }
 
 .width {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -47,6 +49,7 @@ header {
 
 header h1 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 nav a {
@@ -68,7 +71,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 0;
+  padding: 50px 0;
 }
 
 footer img {
@@ -110,4 +113,5 @@ footer img:hover {
   width: 15px;
   color: rgb(160, 55, 178);
   padding-bottom: 2px;
+  padding-left: 2px;
 }
