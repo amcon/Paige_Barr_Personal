@@ -128,6 +128,10 @@ nav a {
   width: 100%;
 }
 
+.reels {
+  padding: 0;
+}
+
 .reels h1 {
   font-size: 50px;
 }
@@ -305,6 +309,10 @@ nav a {
   width: 100%;
 }
 
+.reels {
+  padding: 0;
+}
+
 .reels h1 {
   font-size: 50px;
 }
@@ -482,6 +490,10 @@ nav a {
   width: 100%;
 }
 
+.reels {
+  padding: 0;
+}
+
 .reels h1 {
   font-size: 50px;
 }
@@ -657,6 +669,10 @@ nav a {
 
 #large-video {
   width: 100%;
+}
+
+.reels {
+  padding: 0;
 }
 
 .reels h1 {
