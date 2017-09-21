@@ -44,24 +44,8 @@ nav a {
   font-size: 20px;
 }
 
-.about-text {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.about-text h1  {
-  font-size: 50px;
-}
-
-.about-text p {
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.about-container img {
-  object-fit: cover;
-  object-position: top;
-  height: 900px;
+.news p {
+  font-size: 30px;
 }
 
 .news {
@@ -201,24 +185,8 @@ nav a {
   font-size: 20px;
 }
 
-.about-text {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.about-text h1  {
-  font-size: 50px;
-}
-
-.about-text p {
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.about-container img {
-  object-fit: cover;
-  object-position: top;
-  height: 900px;
+.news p {
+  font-size: 30px;
 }
 
 .news {
@@ -358,24 +326,8 @@ nav a {
   font-size: 20px;
 }
 
-.about-text {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.about-text h1  {
-  font-size: 50px;
-}
-
-.about-text p {
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.about-container img {
-  object-fit: cover;
-  object-position: top;
-  height: 900px;
+.news p {
+  font-size: 30px;
 }
 
 .news {
@@ -515,24 +467,8 @@ nav a {
   font-size: 20px;
 }
 
-.about-text {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.about-text h1  {
-  font-size: 50px;
-}
-
-.about-text p {
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.about-container img {
-  object-fit: cover;
-  object-position: top;
-  height: 900px;
+.news p {
+  font-size: 30px;
 }
 
 .news {
