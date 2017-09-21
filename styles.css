@@ -29,7 +29,7 @@
   padding: 25px 0;
 }
 
-.about-container img {
+.about-container .about-img {
   height: 400px;
   float: left;
   margin-right: 50px;
