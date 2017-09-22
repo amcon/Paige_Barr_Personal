@@ -154,6 +154,16 @@
   margin: 20px 0 40px 0;
 }
 
+#writing-reel-h1 {
+  margin: 20px 0;
+}
+
+#reel-link {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
 .reel-links {
   width: 1000px;
   display: flex;
