@@ -171,13 +171,14 @@ nav a {
 }
 
 audio {
-  height: inherit;
+  height: initial;
+  margin-top: 30px;
 }
 
 .audio-box {
   align-items: flex-start;
   margin: 0;
-  height: 200px;
+  height: 100px;
 }
 
 footer img {
@@ -370,13 +371,14 @@ nav a {
 }
 
 audio {
-  height: inherit;
+  height: initial;
+  margin-top: 30px;
 }
 
 .audio-box {
   align-items: flex-start;
   margin: 0;
-  height: 200px;
+  height: 100px;
 }
 
 footer img {
@@ -569,13 +571,14 @@ nav a {
 }
 
 audio {
-  height: inherit;
+  height: initial;
+  margin-top: 30px;
 }
 
 .audio-box {
   align-items: flex-start;
   margin: 0;
-  height: 200px;
+  height: 100px;
 }
 
 footer img {
@@ -768,13 +771,14 @@ nav a {
 }
 
 audio {
-  height: inherit;
+  height: initial;
+  margin-top: 30px;
 }
 
 .audio-box {
   align-items: flex-start;
   margin: 0;
-  height: 200px;
+  height: 100px;
 }
 
 footer img {
