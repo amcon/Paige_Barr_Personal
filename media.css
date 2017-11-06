@@ -140,6 +140,14 @@ nav a {
   font-size: 25px;
 }
 
+.sub-header {
+  margin-bottom: 1em;
+}
+
+#sub-header {
+  font-size: 35px;
+}
+
 .reels {
   min-height: 1200px;
   display: flex;
@@ -325,6 +333,14 @@ nav a {
   font-size: 25px;
 }
 
+.sub-header {
+  margin-bottom: 1em;
+}
+
+#sub-header {
+  font-size: 35px;
+}
+
 .reels {
   min-height: 1200px;
   display: flex;
@@ -510,6 +526,14 @@ nav a {
   font-size: 25px;
 }
 
+.sub-header {
+  margin-bottom: 1em;
+}
+
+#sub-header {
+  font-size: 35px;
+}
+
 .reels {
   min-height: 1200px;
   display: flex;
@@ -693,6 +717,14 @@ nav a {
 
 .reels h3 {
   font-size: 25px;
+}
+
+.sub-header {
+  margin-bottom: 1em;
+}
+
+#sub-header {
+  font-size: 35px;
 }
 
 .reels {

@@ -36,7 +36,7 @@
 }
 
 .about-container p {
-  line-height: 30px;
+  line-height: 37px;
   margin: 20px 0;
 }
 
@@ -50,6 +50,16 @@
   padding-bottom: 15px;
   width: 280px;
   box-sizing: border-box;
+}
+
+.about-container .internal-link {
+  margin: 0;
+  width: fit-content;
+  display: inline-block;
+}
+
+.about-container .internal-link:hover {
+  padding-bottom: 2px;
 }
 
 .about-container a:hover {
@@ -151,11 +161,20 @@
 /*-----------------------reels--------------------------*/
 
 .reels h1 {
-  margin: 20px 0 40px 0;
+  margin: 20px 0 20px 0;
 }
 
 #writing-reel-h1 {
   margin: 20px 0;
+}
+
+iframe {
+  background-color: black;
+}
+
+#ispot {
+  box-sizing: border-box;
+  padding: 2.2em 0;
 }
 
 #reel-link {
@@ -190,8 +209,11 @@
 }
 
 .sub-header {
-  margin-top: 0;
+  margin: 1em 0 1.75em 0;
   color: rgb(160, 55, 178);
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 #writing:hover {
@@ -222,3 +244,4 @@
 audio {
   width: 60%;
 }
+
