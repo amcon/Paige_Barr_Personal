@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(160, 55, 178);
   background-image: url("public/stock-subway.jpeg");
   background-size: cover;
   position: fixed;
