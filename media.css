@@ -175,8 +175,9 @@ audio {
 }
 
 .audio-box {
-  align-items: flex-end;
-  margin: 50px 0;
+  align-items: flex-start;
+  margin: 0;
+  height: 200px;
 }
 
 footer img {
@@ -373,8 +374,9 @@ audio {
 }
 
 .audio-box {
-  align-items: flex-end;
-  margin: 50px 0;
+  align-items: flex-start;
+  margin: 0;
+  height: 200px;
 }
 
 footer img {
@@ -571,8 +573,9 @@ audio {
 }
 
 .audio-box {
-  align-items: flex-end;
-  margin: 50px 0;
+  align-items: flex-start;
+  margin: 0;
+  height: 200px;
 }
 
 footer img {
@@ -769,8 +772,9 @@ audio {
 }
 
 .audio-box {
-  align-items: flex-end;
-  margin: 50px 0;
+  align-items: flex-start;
+  margin: 0;
+  height: 200px;
 }
 
 footer img {
