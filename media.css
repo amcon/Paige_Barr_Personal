@@ -171,7 +171,7 @@ nav a {
 }
 
 audio {
-  height: 80px;
+  height: inherit;
 }
 
 footer img {
@@ -364,7 +364,7 @@ nav a {
 }
 
 audio {
-  height: 80px;
+  height: inherit;
 }
 
 footer img {
@@ -557,7 +557,7 @@ nav a {
 }
 
 audio {
-  height: 80px;
+  height: inherit;
 }
 
 footer img {
@@ -750,7 +750,7 @@ nav a {
 }
 
 audio {
-  height: 80px;
+  height: inherit;
 }
 
 footer img {
